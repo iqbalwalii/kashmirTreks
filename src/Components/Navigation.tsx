@@ -15,7 +15,12 @@ const Navigation = () => {
       >
         <Container>
           <Navbar.Brand href="#home" className="d-flex align-items-center">
-            <Image src="/assets/images/logo.png" width={60} height={60} />
+            <Image
+              src="/assets/images/logo.png"
+              width={60}
+              height={60}
+              alt="logo"
+            />
             Kashmir Ensueno
           </Navbar.Brand>
 
@@ -26,13 +31,8 @@ const Navigation = () => {
               <Nav.Link href="/treks">Treks</Nav.Link>
 
               <NavDropdown title="Holidays" id="collasible-nav-dropdown">
-                {/* {Holidays.map((holiday) => (
-                  <NavDropdown.Item href="#action/3.1">
-                    {holiday}
-                  </NavDropdown.Item>
-                ))} */}
                 {Object.keys(Holidays).map((key) => (
-                  <NavDropdown.Item href={`holidays/${key}`}>
+                  <NavDropdown.Item href={`holidays/${key}`} key={key}>
                     {Holidays[key]}
                   </NavDropdown.Item>
                 ))}
