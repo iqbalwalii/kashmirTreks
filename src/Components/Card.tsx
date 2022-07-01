@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { isNull } from "util";
@@ -6,10 +7,14 @@ const CardView = (props) => {
   return (
     <div>
       <Card style={{ width: "18rem" }}>
-        <Card.Img
-          variant="top"
+        <Image
           src="https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1656346084/IMG-20220618-WA0042_h2wukd.jpg"
+          width="200px"
+          height="150px"
+          alt="card image"
+          layout="responsive"
         />
+
         <Card.Body>
           <Card.Title className="text-center">{props?.name}</Card.Title>
         </Card.Body>

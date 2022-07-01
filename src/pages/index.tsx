@@ -25,13 +25,13 @@ export default function Home() {
         <div className="featured my-5">
           <h3 className=" mb-3 text-center">FEATURED TOURS</h3>
           <Row className="d-flex justify-content-around">
-            <Col className="mb-4">
+            <Col className="mb-4" md={4} xs={10}>
               <Card name={"Tulail - Gangbal - Naranag Trek"} />
             </Col>
-            <Col className="mb-4">
+            <Col className="mb-4" md={4} xs={10}>
               <Card name={"Mount Kolohai Full Glacier Trek"} />
             </Col>
-            <Col className="mb-4">
+            <Col className="mb-4" md={4} xs={10}>
               <Card name={"Srinagar Warwan Valley Panikhar Trek"} />
             </Col>
           </Row>
@@ -60,13 +60,13 @@ export default function Home() {
         <div className="featured my-5">
           <h3 className=" mb-3 text-center">FIXED DEPARTURES</h3>
           <Row className="d-flex justify-content-around">
-            <Col className="mb-4">
+            <Col className="mb-4" md={4} xs={10}>
               <Card name={"Gangbal Mahlish Trek"} btn={true} />
             </Col>
-            <Col className="mb-4">
+            <Col className="mb-4" md={4} xs={10}>
               <Card name={"kashmir Great Lakes Trek"} btn={true} />
             </Col>
-            <Col className="mb-4">
+            <Col className="mb-4" md={4} xs={10}>
               <Card name={"Tarsar Marsar Trek"} btn={true} />
             </Col>
           </Row>
