@@ -14,14 +14,17 @@ const Navigation = () => {
         fixed="top"
       >
         <Container>
-          <Navbar.Brand href="#home" className="d-flex align-items-center">
+          <Navbar.Brand href="/" className="d-flex align-items-center">
             <Image
-              src="/assets/images/logo.png"
+              src="/assets/images/logo.svg"
               width={60}
               height={60}
               alt="logo"
             />
-            Kashmir Ensueno
+            <span style={{ color: "#5B3511", marginLeft: "1rem" }}>
+              Kashmir
+            </span>{" "}
+            <span style={{ color: "#004220" }}>Ensueno</span>
           </Navbar.Brand>
 
           <Navbar.Toggle />
