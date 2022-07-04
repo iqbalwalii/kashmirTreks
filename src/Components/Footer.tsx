@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import Image from "next/image";
 import styles from "../styles/Footer.module.css";
+import Link from "next/link";
 const Footer = () => {
   return (
     <Row className={styles.main}>
@@ -22,13 +23,16 @@ const Footer = () => {
       </Col>
 
       <Col>
-        <h4 className="text-center">USEFUL LINKS</h4>
-        <ul className="list-unstyled">
-          <li className="text-center">Car Rental</li>
-          <li className="text-center">Weather and Climate</li>
-          <li className="text-center">Protect Environment</li>
-          <li className="text-center">Trekking grades</li>
-          <li className="text-center">Visa Information</li>
+        <h4 className="text-center ">USEFUL LINKS</h4>
+        <ul className="list-unstyled ">
+          <li className="text-center">
+            <Link href="/holidays">Holidays</Link>
+          </li>
+          <li className="text-center">
+            <Link href="/holidays" className="reservedLinks">
+              Car Rental
+            </Link>
+          </li>
         </ul>
       </Col>
       <Col>

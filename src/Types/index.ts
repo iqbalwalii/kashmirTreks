@@ -1,10 +1,10 @@
 export enum Holidays {
-  Srinagar_Leh_Nubra_Tour = "Srinagar Leh Nubra Tour",
-  Kashmir_Paradise_Tour = "Kashmir Paradise Tour",
-  Kashmir_Winter_Package_Tour = "Kashmir Winter Package Tour",
-  Srinagar_Kargil_Zanskar_Tour = "Srinagar Kargil Zanskar Tour",
-  Gulmarg_Family_Ski_Holiday = "Gulmarg Family Ski Holiday",
-  Gure_Valley_Cycling_Trail = "Gure Valley Cycling Trail",
-  Kashmir_Spring_Special_Tour = "Kashmir Spring Special Tour",
-  Kashmir_Car_Rental = "Kashmir Car Rental",
+  srinagar_leh_nubra_tour = "Srinagar Leh Nubra Tour",
+  kashmir_paradise_tour = "Kashmir Paradise Tour",
+  kashmir_winter_package_tour = "Kashmir Winter Package Tour",
+  srinagar_kargil_zanskar_tour = "Srinagar Kargil Zanskar Tour",
+  gulmarg_family_ski_holiday = "Gulmarg Family Ski Holiday",
+  // gure_valley_cycling_trail = "Gure Valley Cycling Trail",
+  kashmir_spring_special_tour = "Kashmir Spring Special Tour",
+  // kashmir_car_rental = "Kashmir Car Rental",
 }

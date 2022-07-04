@@ -35,7 +35,7 @@ const Navigation = () => {
 
               <NavDropdown title="Holidays" id="collasible-nav-dropdown">
                 {Object.keys(Holidays).map((key) => (
-                  <NavDropdown.Item href={`holidays/${key}`} key={key}>
+                  <NavDropdown.Item href={`/holidays/${key}`} key={key}>
                     {Holidays[key]}
                   </NavDropdown.Item>
                 ))}
