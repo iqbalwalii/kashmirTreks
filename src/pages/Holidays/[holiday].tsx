@@ -10,7 +10,6 @@ import {
   Button,
   ButtonGroup,
 } from "react-bootstrap";
-import Image from "next/Image";
 const Holidays = () => {
   const router = useRouter();
   const [holiday, setHoliday] = useState(null);
