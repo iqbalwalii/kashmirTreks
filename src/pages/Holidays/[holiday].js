@@ -52,9 +52,9 @@ const Holidays = () => {
             <>
               <Col md={4} xs={12}>
                 <h3 className="text-center">Introduction</h3>
-                {holiday?.introduction?.map((para) => {
+                {holiday?.introduction?.map((para, idx) => {
                   return (
-                    <p>
+                    <p key={idx}>
                       {para}
                       <br />
                     </p>
@@ -64,9 +64,9 @@ const Holidays = () => {
 
               <Col md={4} xs={12}>
                 <h3 className="text-center">Sightseeings</h3>
-                {holiday?.sightseeings?.map((para) => {
+                {holiday?.sightseeings?.map((para, idx) => {
                   return (
-                    <p>
+                    <p key={idx}>
                       {para}
                       <br />
                     </p>
@@ -79,19 +79,19 @@ const Holidays = () => {
                 <Accordion defaultActiveKey="0">
                   {holiday?.plans?.map((plan, idx) => {
                     return (
-                      <Accordion.Item eventKey={idx}>
+                      <Accordion.Item eventKey={idx} key={idx}>
                         <Accordion.Header>{plan?.name}</Accordion.Header>
                         <Accordion.Body>
                           <h6>Highlights</h6>
                           <ul className="list-styled">
-                            {plan?.highlights?.map((hylyt) => {
-                              return <li>{hylyt}</li>;
+                            {plan?.highlights?.map((hylyt, index) => {
+                              return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
                           <h6>Accomodations</h6>
                           <ul className="list-styled">
-                            {plan?.Accomodations?.map((hylyt) => {
-                              return <li>{hylyt}</li>;
+                            {plan?.Accomodations?.map((hylyt, index) => {
+                              return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
                         </Accordion.Body>
@@ -105,9 +105,9 @@ const Holidays = () => {
             <>
               <Col md={6} xs={12}>
                 <h3 className="text-center">Introduction</h3>
-                {holiday?.introduction?.map((para) => {
+                {holiday?.introduction?.map((para, idx) => {
                   return (
-                    <p>
+                    <p key={idx}>
                       {para}
                       <br />
                     </p>
@@ -120,19 +120,19 @@ const Holidays = () => {
                 <Accordion defaultActiveKey="0">
                   {holiday?.plans?.map((plan, idx) => {
                     return (
-                      <Accordion.Item eventKey={idx}>
+                      <Accordion.Item eventKey={idx} key={idx}>
                         <Accordion.Header>{plan?.name}</Accordion.Header>
                         <Accordion.Body>
                           <h6>Highlights</h6>
                           <ul className="list-styled">
-                            {plan?.highlights?.map((hylyt) => {
-                              return <li>{hylyt}</li>;
+                            {plan?.highlights?.map((hylyt, index) => {
+                              return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
                           <h6>Accomodations</h6>
                           <ul className="list-styled">
-                            {plan?.Accomodations?.map((hylyt) => {
-                              return <li>{hylyt}</li>;
+                            {plan?.Accomodations?.map((hylyt, index) => {
+                              return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
                         </Accordion.Body>
@@ -150,8 +150,8 @@ const Holidays = () => {
               What&apos;s Included in the Price?
             </h4>
             <ul>
-              {holiday?.inclusions?.map((incl) => {
-                return <li>{incl}</li>;
+              {holiday?.inclusions?.map((incl, idx) => {
+                return <li key={idx}>{incl}</li>;
               })}
             </ul>
           </Col>
@@ -160,8 +160,8 @@ const Holidays = () => {
               What&apos;s Not Included in the Price?
             </h4>
             <ul>
-              {holiday?.exclusions?.map((incl) => {
-                return <li>{incl}</li>;
+              {holiday?.exclusions?.map((incl, idx) => {
+                return <li key={idx}>{incl}</li>;
               })}
             </ul>
           </Col>
@@ -173,15 +173,15 @@ const Holidays = () => {
             <Accordion>
               {holiday?.itinerary?.map((incl, idx) => {
                 return (
-                  <Accordion.Item eventKey={idx}>
+                  <Accordion.Item eventKey={idx} key={idx}>
                     <Accordion.Header>
                       Day {idx + 1}: {incl?.name}
                     </Accordion.Header>
 
                     <Accordion.Body>
                       <ul>
-                        {incl?.items?.map((val) => {
-                          return <li>{val}</li>;
+                        {incl?.items?.map((val, idx) => {
+                          return <li key={idx}>{val}</li>;
                         })}
                       </ul>
                       ({incl?.description})
@@ -196,7 +196,7 @@ const Holidays = () => {
             <Accordion>
               {holiday?.detailedItinerary?.map((incl, idx) => {
                 return (
-                  <Accordion.Item eventKey={idx}>
+                  <Accordion.Item eventKey={idx} key={idx}>
                     <Accordion.Header>
                       Day {idx + 1}: {incl?.name}
                     </Accordion.Header>
