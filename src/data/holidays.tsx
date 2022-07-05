@@ -237,15 +237,11 @@ const holidays = {
 
       " Leh- Nubra valley (200 km, 6 hrs drive). Drive to Nubra Valley via Khardungla Pass (2nd highest motor-able pass in the world at 5360m). Sightseeing of Disket, Hundar, and sand dunes of Sumoor. Overnight stay at Sumoor Dream Camp.",
 
-      ,
       "Sumoor Pangong Lake via Shyok (260 km, 7 hrs drive). Following the Shyok Valley road, we drive to Pangong Lake. Visiting the world’s most remote villages and monasteries. Overnight stay at Parchaling Camp Pangong Lake",
 
       "Pangong-Tso Kar Lake (140 km, 5 hrs drive). We drive to Tso Kar Lake visiting villages and the adjoining monasteries. Overnight stay at Karma Guest House Tso Kar.",
 
       "Tso Kar-Leh via Tangla Pass. (120 Km, 5 hours drive). We drive back to Leh taking the Leh-Manali stretch of road through Tangla Pass. Overnight at Hotel Leh.",
-
-      "Day at leisure. Leh local sightseeing and rest.",
-
       "Departure. After breakfast and check out from the hotel proceed to Leh airport for departure.",
     ],
     plans: [

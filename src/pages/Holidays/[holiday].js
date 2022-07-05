@@ -14,10 +14,8 @@ const Holidays = () => {
   const router = useRouter();
   const [holiday, setHoliday] = useState(null);
   useEffect(() => {
-    if (router.isReady) {
-      const packageName = router.query.holiday;
-      setHoliday(holidays[packageName]);
-    }
+    const packageName = router.query.holiday;
+    setHoliday(holidays[packageName]);
   }, [router, holiday, router.query.holiday]);
   console.log(holiday);
   return (
