@@ -9,16 +9,29 @@ import {
   Accordion,
   Button,
   ButtonGroup,
+  Spinner,
 } from "react-bootstrap";
 const Holidays = () => {
   const router = useRouter();
   const packageName = router.query.holiday;
-  const [holiday, setHoliday] = useState(packageName);
+  const [holiday, setHoliday] = useState(holidays[packageName]);
   useEffect(() => {
-    setHoliday(holidays[packageName]);
-  }, [router, holiday, packageName]);
+    if (router.isReady) {
+      setHoliday(holidays[packageName]);
+    }
+  }, [router, holiday]);
+
   console.log(holiday);
-  return (
+  return holiday === undefined || null ? (
+    <Container
+      className="d-flex justify-content-center align-items-center"
+      style={{ height: "100vh" }}
+    >
+      <Spinner animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+    </Container>
+  ) : (
     <>
       <Row>
         <img
