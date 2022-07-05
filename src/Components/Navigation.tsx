@@ -3,7 +3,6 @@ import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
 import Image from "next/image";
 import { Holidays } from "../Types/index";
 const Navigation = () => {
-  console.log(Holidays);
   return (
     <div>
       <Navbar

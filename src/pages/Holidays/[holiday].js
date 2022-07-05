@@ -12,11 +12,11 @@ import {
 } from "react-bootstrap";
 const Holidays = () => {
   const router = useRouter();
-  const [holiday, setHoliday] = useState(null);
+  const packageName = router.query.holiday;
+  const [holiday, setHoliday] = useState(packageName);
   useEffect(() => {
-    const packageName = router.query.holiday;
     setHoliday(holidays[packageName]);
-  }, [router, holiday, router.query.holiday]);
+  }, [router, holiday, packageName]);
   console.log(holiday);
   return (
     <>
