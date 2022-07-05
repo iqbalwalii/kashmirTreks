@@ -28,7 +28,7 @@ const Holidays = () => {
           width="100%"
           height="100%"
           alt="image"
-          class="imagehead"
+          className="imagehead"
         />
         <div className="dark">
           <div className="d-flex-column justify-content-center align-items-center w-50">
