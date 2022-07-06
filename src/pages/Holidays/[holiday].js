@@ -13,15 +13,15 @@ import {
 } from "react-bootstrap";
 const Holidays = () => {
   const router = useRouter();
-  const packageName = router.query.holiday;
-  const [holiday, setHoliday] = useState(holidays[packageName]);
+  let packageName = router.query.holiday;
+  const [holiday, setHoliday] = useState(packageName);
   useEffect(() => {
     if (router.isReady) {
       setHoliday(holidays[packageName]);
     }
   }, [router, holiday]);
 
-  console.log(holiday);
+  console.log(packageName);
   console.log("all", holidays);
   return holiday === undefined || null ? (
     <Container
