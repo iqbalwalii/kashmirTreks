@@ -89,18 +89,21 @@ const Holidays = ({ holiday }) => {
                       <Accordion.Item eventKey={idx} key={idx}>
                         <Accordion.Header>{plan?.name}</Accordion.Header>
                         <Accordion.Body>
-                          <h6>Highlights</h6>
+                          <h6 style={{ color: "green" }}>Highlights</h6>
+
                           <ul className="list-styled">
                             {plan?.highlights?.map((hylyt, index) => {
                               return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
-                          <h6>Accomodations</h6>
+                          <h6 style={{ color: "green" }}>Accomodations</h6>
                           <ul className="list-styled">
                             {plan?.Accomodations?.map((hylyt, index) => {
                               return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
+                          <h6 style={{ color: "green" }}>Rate :</h6>
+                          <p>{plan?.rate}</p>
                         </Accordion.Body>
                       </Accordion.Item>
                     );
@@ -130,18 +133,24 @@ const Holidays = ({ holiday }) => {
                       <Accordion.Item eventKey={idx} key={idx}>
                         <Accordion.Header>{plan?.name}</Accordion.Header>
                         <Accordion.Body>
-                          <h6>Highlights</h6>
+                          <h6 style={{ color: "green" }}>Highlights</h6>
                           <ul className="list-styled">
                             {plan?.highlights?.map((hylyt, index) => {
                               return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
-                          <h6>Accomodations</h6>
+                          <h6 style={{ color: "green" }}>Accomodations</h6>
                           <ul className="list-styled">
                             {plan?.Accomodations?.map((hylyt, index) => {
                               return <li key={index}>{hylyt}</li>;
                             })}
                           </ul>
+                          <h6 style={{ color: "green", display: "inline" }}>
+                            Rate :
+                          </h6>
+                          <span style={{ color: "#5B3511" }}>
+                            &nbsp;{plan?.rate}
+                          </span>
                         </Accordion.Body>
                       </Accordion.Item>
                     );

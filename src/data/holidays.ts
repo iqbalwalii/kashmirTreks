@@ -360,7 +360,7 @@ const holidays = {
     ],
     plans: [
       {
-        name: "standard (INR 16100)",
+        name: "standard ",
         rate: 16100,
         highlights: [
           "Gondola Pass (First phase)",
@@ -373,7 +373,7 @@ const holidays = {
         ],
       },
       {
-        name: "Deluxe INR[32900]",
+        name: "Deluxe ",
         rate: 32900,
         highlights: [
           "Gondola Pass (First phase)",
@@ -612,7 +612,7 @@ const holidays = {
     ],
     plans: [
       {
-        name: "standard INR[28900]",
+        name: "standard",
         rate: 28900,
         highlights: [
           "Skiing Equipment",
