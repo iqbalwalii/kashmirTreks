@@ -40,9 +40,6 @@ const Navigation = () => {
                       passHref
                       href={{
                         pathname: `/holidays/${key}`,
-                        data: {
-                          name: Holidays[key],
-                        },
                       }}
                     >
                       {Holidays[key]}
