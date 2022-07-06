@@ -22,6 +22,7 @@ const Holidays = () => {
   }, [router, holiday]);
 
   console.log(holiday);
+  console.log(all, holidays);
   return holiday === undefined || null ? (
     <Container
       className="d-flex justify-content-center align-items-center"
