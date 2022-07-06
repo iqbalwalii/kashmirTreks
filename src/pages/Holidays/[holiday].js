@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import holidays from "../../data/holidays";
 import {
   Row,
@@ -11,19 +10,15 @@ import {
   ButtonGroup,
   Spinner,
 } from "react-bootstrap";
-const Holidays = () => {
-  const router = useRouter();
-  let packageName = router.query.holiday;
-  const [holiday, setHoliday] = useState(packageName);
+const Holidays = ({ holiday }) => {
+  const trip = holiday.holiday;
+  const [destination, setDestination] = useState(holidays[trip]);
   useEffect(() => {
-    if (router.isReady) {
-      setHoliday(holidays[packageName]);
-    }
-  }, [router, holiday]);
+    setDestination(holidays[trip]);
+  }, [trip]);
 
-  console.log(packageName);
-  console.log("all", holidays);
-  return holiday === undefined || null ? (
+  console.log(holidays[trip]);
+  return destination === undefined || null ? (
     <Container
       className="d-flex justify-content-center align-items-center"
       style={{ height: "100vh" }}
@@ -36,7 +31,7 @@ const Holidays = () => {
     <>
       <Row>
         <img
-          src={holiday?.image}
+          src={destination?.image}
           width="100%"
           height="100%"
           alt="image"
@@ -44,7 +39,7 @@ const Holidays = () => {
         />
         <div className="dark">
           <div className="d-flex-column justify-content-center align-items-center w-50">
-            <h5 className="text-center text">{holiday?.alternate}</h5>
+            <h5 className="text-center text">{destination?.alternate}</h5>
             <ButtonGroup className="d-flex justify-content-around">
               <Button variant="success">Enquire</Button>
               <Button variant="warning">Book Now</Button>
@@ -55,16 +50,16 @@ const Holidays = () => {
       <Container>
         <Row className="mt-5">
           <Col className="mt-5">
-            <h1 className="text-center">{holiday?.name}</h1>
-            <p className="text-center">{holiday?.stay}</p>
+            <h1 className="text-center">{destination?.name}</h1>
+            <p className="text-center">{destination?.stay}</p>
           </Col>
         </Row>
         <Row className="mt-5">
-          {holiday?.sightseeings ? (
+          {destination?.sightseeings ? (
             <>
               <Col md={4} xs={12}>
                 <h3 className="text-center">Introduction</h3>
-                {holiday?.introduction?.map((para, idx) => {
+                {destination?.introduction?.map((para, idx) => {
                   return (
                     <p key={idx}>
                       {para}
@@ -76,7 +71,7 @@ const Holidays = () => {
 
               <Col md={4} xs={12}>
                 <h3 className="text-center">Sightseeings</h3>
-                {holiday?.sightseeings?.map((para, idx) => {
+                {destination?.sightseeings?.map((para, idx) => {
                   return (
                     <p key={idx}>
                       {para}
@@ -89,7 +84,7 @@ const Holidays = () => {
                 <h3>Price Per Person </h3>
                 <span>(inclusive of all taxes)</span>
                 <Accordion defaultActiveKey="0">
-                  {holiday?.plans?.map((plan, idx) => {
+                  {destination?.plans?.map((plan, idx) => {
                     return (
                       <Accordion.Item eventKey={idx} key={idx}>
                         <Accordion.Header>{plan?.name}</Accordion.Header>
@@ -117,7 +112,7 @@ const Holidays = () => {
             <>
               <Col md={6} xs={12}>
                 <h3 className="text-center">Introduction</h3>
-                {holiday?.introduction?.map((para, idx) => {
+                {destination?.introduction?.map((para, idx) => {
                   return (
                     <p key={idx}>
                       {para}
@@ -130,7 +125,7 @@ const Holidays = () => {
                 <h3>Price Per Person </h3>
                 <span>(inclusive of all taxes)</span>
                 <Accordion defaultActiveKey="0">
-                  {holiday?.plans?.map((plan, idx) => {
+                  {destination?.plans?.map((plan, idx) => {
                     return (
                       <Accordion.Item eventKey={idx} key={idx}>
                         <Accordion.Header>{plan?.name}</Accordion.Header>
@@ -162,7 +157,7 @@ const Holidays = () => {
               What&apos;s Included in the Price?
             </h4>
             <ul>
-              {holiday?.inclusions?.map((incl, idx) => {
+              {destination?.inclusions?.map((incl, idx) => {
                 return <li key={idx}>{incl}</li>;
               })}
             </ul>
@@ -172,7 +167,7 @@ const Holidays = () => {
               What&apos;s Not Included in the Price?
             </h4>
             <ul>
-              {holiday?.exclusions?.map((incl, idx) => {
+              {destination?.exclusions?.map((incl, idx) => {
                 return <li key={idx}>{incl}</li>;
               })}
             </ul>
@@ -183,7 +178,7 @@ const Holidays = () => {
           <Col md={6} xs={12}>
             <h4 style={{ color: "#004220" }}>Brief Itenerary</h4>
             <Accordion>
-              {holiday?.itinerary?.map((incl, idx) => {
+              {destination?.itinerary?.map((incl, idx) => {
                 return (
                   <Accordion.Item eventKey={idx} key={idx}>
                     <Accordion.Header>
@@ -206,7 +201,7 @@ const Holidays = () => {
           <Col>
             <h4>Detailed Itnerary</h4>
             <Accordion>
-              {holiday?.detailedItinerary?.map((incl, idx) => {
+              {destination?.detailedItinerary?.map((incl, idx) => {
                 return (
                   <Accordion.Item eventKey={idx} key={idx}>
                     <Accordion.Header>
@@ -228,3 +223,12 @@ const Holidays = () => {
 };
 
 export default Holidays;
+
+export async function getServerSideProps(context) {
+  console.log(context);
+  return {
+    props: {
+      holiday: context.params,
+    },
+  };
+}

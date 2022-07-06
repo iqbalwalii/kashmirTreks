@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
 import Image from "next/image";
 import { Holidays } from "../Types/index";
+import Link from "next/link";
 const Navigation = () => {
   return (
     <div>
@@ -34,8 +35,18 @@ const Navigation = () => {
 
               <NavDropdown title="Holidays" id="collasible-nav-dropdown">
                 {Object.keys(Holidays).map((key) => (
-                  <NavDropdown.Item href={`/holidays/${key}`} key={key}>
-                    {Holidays[key]}
+                  <NavDropdown.Item key={key}>
+                    <Link
+                      passHref
+                      href={{
+                        pathname: `/holidays/${key}`,
+                        data: {
+                          name: Holidays[key],
+                        },
+                      }}
+                    >
+                      {Holidays[key]}
+                    </Link>
                   </NavDropdown.Item>
                 ))}
               </NavDropdown>
