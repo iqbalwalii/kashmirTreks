@@ -100,3 +100,14 @@ a:hover {
   padding: 0.5rem;
   border-radius: 10px;
 }
+.activity {
+  background-color: rgba(68, 68, 68, 0.158);
+  padding: 2rem;
+}
+.box {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}

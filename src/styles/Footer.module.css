@@ -5,4 +5,8 @@
   background: #201d1d;
   color: #fafafa;
 }
+
+.main li > a {
+  color: #fafafa !important;
+}
 /*# sourceMappingURL=Footer.module.css.map */
