@@ -31,10 +31,10 @@ const index = () => {
         className="mb-3"
       >
         <Tab eventKey="day" title="Day Tours">
-          "height"
+          height
         </Tab>
         <Tab eventKey="holiday" title="Holidays">
-          "height"
+          height
         </Tab>
         <Tab eventKey="long" title="Long Treks">
           <Link href="/treks/kashmir_great_lakes_trek" passHref>
