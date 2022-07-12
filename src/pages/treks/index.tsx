@@ -42,15 +42,15 @@ const index = () => {
           </Link>
           <br />
           <Link href="/treks/tulail_gangabal_naranag_trek" passHref>
-            Tulail-gangabal-naranag-trek
+            Tulail Gangabal naranag Trek
           </Link>
           <br />
           <Link href="/treks/aharbal_kounsarnag_trek" passHref>
-            Tulail-gangabal-naranag-trek
+            Aharbal Gangbal Naranag Trek
           </Link>
         </Tab>
         <Tab eventKey="short" title="Short Treks">
-          "height"
+          Height
         </Tab>
       </Tabs>
     </Container>

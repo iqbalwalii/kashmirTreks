@@ -62,7 +62,11 @@ const Treks = ({ holiday }) => {
           {destination?.best_time}
           <div className="box mt-2">
             <h6>
-              <a href={destination?.altitude_map} target="_blank">
+              <a
+                href={destination?.altitude_map}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Altitude Map
               </a>
             </h6>
