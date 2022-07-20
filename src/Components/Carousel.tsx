@@ -37,6 +37,14 @@ export default function App() {
             </Link>
           </div>
         </SwiperSlide>
+        <SwiperSlide className={styles.second}>
+          <div className={styles.controls}>
+            <h2 className="text-light">what lies beyond</h2>
+            <Link href="/book">
+              <Button variant="light">Book Now</Button>
+            </Link>
+          </div>
+        </SwiperSlide>
         <SwiperSlide className={styles.last}>
           <div className={styles.controls}>
             <h2 className="text-light">Adventure lies within us</h2>
