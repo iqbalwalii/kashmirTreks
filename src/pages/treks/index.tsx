@@ -192,8 +192,6 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col></Col>
-            <Col></Col>
           </Row>
         </Tab>
         <Tab eventKey="short" title="Short Treks">
@@ -282,8 +280,6 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col></Col>
-            <Col></Col>``
           </Row>
         </Tab>
       </Tabs>
