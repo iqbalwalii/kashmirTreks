@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import { isNull } from "util";
-
+import Link from "next/link";
 const CardView = (props) => {
   return (
     <div>
+      {/* <Link href={props?.link}> */}
       <Card style={{ width: "18rem" }}>
-        <Image
-          src="https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1656346084/IMG-20220618-WA0042_h2wukd.jpg"
-          width="200px"
-          height="150px"
+        <img
+          src={props?.image}
+          // width="200px"
+          // height="150px"
           alt="card image"
-          layout="responsive"
+          // layout="responsive"
         />
 
         <Card.Body>
@@ -29,6 +29,7 @@ const CardView = (props) => {
           ""
         )}
       </Card>
+      {/* </Link> */}
     </div>
   );
 };

@@ -30,9 +30,6 @@ const index = () => {
         id="uncontrolled-tab-example"
         className="mb-3"
       >
-        <Tab eventKey="day" title="Day Tours">
-          height
-        </Tab>
         <Tab eventKey="holiday" title="Holidays">
           height
         </Tab>
@@ -47,6 +44,22 @@ const index = () => {
           <br />
           <Link href="/treks/aharbal_kounsarnag_trek" passHref>
             Aharbal Gangbal Naranag Trek
+          </Link>
+          <br />
+          <Link href="/treks/sonamarg_vishansar_bandipora_trek" passHref>
+            Sonmarg Vishansar Naranag Trek
+          </Link>
+          <br />
+          <Link href="/treks/tarsar_marsar_trek" passHref>
+            Tarsar Marsar
+          </Link>{" "}
+          <br />
+          <Link href="/treks/srinagar_warwan_panikhar_trek" passHref>
+            Srinagar Warwan Panikhar Trek
+          </Link>
+          <br />
+          <Link href="/treks/markha_valley_trek" passHref>
+            markha valley
           </Link>
         </Tab>
         <Tab eventKey="short" title="Short Treks">

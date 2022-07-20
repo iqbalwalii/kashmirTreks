@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import Slider from "../Components/Carousel";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import Card from "../Components/Card";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -28,15 +29,37 @@ export default function Home() {
         <div className="featured my-5">
           <h3 className=" mb-3 text-center">FEATURED TOURS</h3>
           <Row className="d-flex justify-content-around">
-            <Col className="mb-4" md={4} xs={10}>
-              <Card name={"Tulail - Gangbal - Naranag Trek"} />
-            </Col>
-            <Col className="mb-4" md={4} xs={10}>
-              <Card name={"Mount Kolohai Full Glacier Trek"} />
-            </Col>
-            <Col className="mb-4" md={4} xs={10}>
-              <Card name={"Srinagar Warwan Valley Panikhar Trek"} />
-            </Col>
+            <Link href="/treks/tulail_gangabal_naranag_trek">
+              <Col className="mb-4" md={4} xs={10}>
+                <Card
+                  name={"Tulail - Gangbal - Naranag Trek"}
+                  image={
+                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322099/3da497d1-d051-408e-be5b-d2e59d94e271_Kashmir_Great_Lakes_KGL_RAJARSHI_MANNA_-_UNDER_THE_SAME_SKY_d5dbph.webp"
+                  }
+                  link={"treks/tulail_gangbal_naranag_trek"}
+                />
+              </Col>
+            </Link>
+            <Link href="/treks/kolahoi_glacier_trek">
+              <Col className="mb-4" md={4} xs={10}>
+                <Card
+                  name={"Mount Kolohai Full Glacier Trek"}
+                  image={
+                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322194/Kolahoi-Glacier-Trek_qsralh.webp"
+                  }
+                />
+              </Col>
+            </Link>
+            <Link href="/treks/srinagar_warwan_panikhar_trek">
+              <Col className="mb-4" md={4} xs={10}>
+                <Card
+                  name={"Srinagar Warwan Valley Panikhar Trek"}
+                  image={
+                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322295/9f9c89a8-e9f4-44a9-aca5-5baba75b42d2_Warwan_Valley_-_Subro_-_Village_-_Compressed_wyzdbp.webp"
+                  }
+                />
+              </Col>
+            </Link>
           </Row>
         </div>
         <div className="d-flex justify-content-center">
@@ -68,15 +91,39 @@ export default function Home() {
         <div className="featured my-5">
           <h3 className=" mb-3 text-center">FIXED DEPARTURES</h3>
           <Row className="d-flex justify-content-around">
-            <Col className="mb-4" md={4} xs={10}>
-              <Card name={"Gangbal Mahlish Trek"} btn={true} />
-            </Col>
-            <Col className="mb-4" md={4} xs={10}>
-              <Card name={"kashmir Great Lakes Trek"} btn={true} />
-            </Col>
-            <Col className="mb-4" md={4} xs={10}>
-              <Card name={"Tarsar Marsar Trek"} btn={true} />
-            </Col>
+            <Link href="/treks/naranag_gangabal_mahlish_trek">
+              <Col className="mb-4" md={4} xs={10}>
+                <Card
+                  name={"Gangbal Mahlish Trek"}
+                  image={
+                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321844/shutterstock_1214208439_xw1tnp.jpg"
+                  }
+                  btn={true}
+                />
+              </Col>
+            </Link>
+            <Link href="/treks/kashmir_great_lakes_trek">
+              <Col className="mb-4" md={4} xs={10}>
+                <Card
+                  name={"kashmir Great Lakes Trek"}
+                  image={
+                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321686/gl_aho9th.jpg"
+                  }
+                  btn={true}
+                />
+              </Col>
+            </Link>
+            <Link href="/treks/tarsar_marsar_trek">
+              <Col className="mb-4" md={4} xs={10}>
+                <Card
+                  name={"Tarsar Marsar Trek"}
+                  image={
+                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321775/taesae_tjh0je.webp"
+                  }
+                  btn={true}
+                />
+              </Col>
+            </Link>
           </Row>
         </div>
       </Container>
