@@ -96,6 +96,14 @@ const treks = {
           "Transport from Naranag to Srinagar Hotel. Deluxe Houseboat or Hotel accommodation (twin sharing) at Srinagar. lunch at Naranag, dinner and the breakfast at the hotel in Srinagar",
         items: ["Altitude: 3580m to 2250m", "15 kms trek, approx 6 hours"],
       },
+      {
+        name: "Srinagar Airport or Bus Stand drop",
+        description: "Transport from Srinagar to the airport for departure",
+        items: [
+          "5 kms drive to bus stand, approx 20 minutes",
+          "12 kms drive to Srinagar airport, approx 30 minutes",
+        ],
+      },
     ],
     detailedItinerary: [
       "Arrival. Reception at Srinagar airport/bus station. On arrival at Srinagar airport or bus station, our representative cum driver will receive you and drive to Sonamarg for an overnight stay in a tented camp. We have a tea or kahwa before the dinner at the evening. The drive through Ganderbal villages takes maximum 3 hours to cover a distance of around 100 kms. Sonamarg is the last town with a market before the start of the trek.",
@@ -106,7 +114,6 @@ const treks = {
 
       "Vishansar – Gadsar (8 hrs trek). After the breakfast, we start our day’s trek looking over and over to Vishansar Lake while we ascend to Krishansar Lake. The Krishansar Lake is a sibling of the former, it lies just over a ridge. We take its eastern shore to ascend the second and the highest pass of the trek the Gadsar Pass (4180m). The pass-trek is steeper than that of the Nichnai. It takes 2 hours to ascend the pass. On the top of the pass, we have the aerial view of the whole Vishansar valley among it are situated the twin lakes of Vishansar and Krishansar “the source of Neelam River”. We trek-down the Gadsar valley and take our lunch at the Gadsar Lake. The valley is also full of the flowery alpine plants and the green carpeted mountains look fabulous with their snow-clad tops. Our alpine pasture trek is full of Kashmir sheep, while walking down the trek it looks never ending as finally we arrive our camping ground at Kostour Kot. Before few years there used to have another army check-post, but luckily they are gone. Now no more checking at Gadsar. We take our tea or Kahwa and have our dinner at the evening.",
 
-      ,
       "Gadsar – Satsar Lakes – Megandoab (5 hrs trek). After the breakfast we ascend Kostur Kout leaving Gadsar valley, it takes 2 hours of a trek to enter the meadow of Rasbal. At the Rasbal a flowing river disappears inside the boulders and flows underground. The trek follows a fertile meadow. We continue our trek through seven small lakes of Satsar and camp at Megandoab at the foothills of the third pass of Zajibal for an overnight stay. Today we take our lunch at the campsite as this is the shortest day of the trek.",
 
       "Satsar – Gangabal lake (6 hrs trek). After the breakfast at the campsite we start our trek by criss-crossing boulders. We ascend the last pass of our trek ‘Zajibal Pass (4080m)’. It takes maximum 3 hours of alpine trekking. As we reach atop, all our tiredness falls apart by looking at the views and the mountain scenery of the Mount Haramukh (5300m) just standing in the front and at its footsteps lie the twin beautiful alpine lakes of Gangabal and Nundkol. There is also a clear view os the distant Kolesar Lake. We descend the pass and reach our campsite at Gangabal Lake for an overnight stay. We take our lunch at the lake and tea and dinner at the campsite.",

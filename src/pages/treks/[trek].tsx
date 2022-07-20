@@ -239,7 +239,7 @@ const Treks = ({ holiday }) => {
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col>
+            <Col md={6} xs={10} className="cardCenter">
               <h3>WHAT TO CARRY</h3>
               <p>
                 The trek is supported by horses. You will need to carry only a
@@ -262,7 +262,7 @@ const Treks = ({ holiday }) => {
                 </li>
               </ul>
             </Col>
-            <Col>
+            <Col md={6} xs={10} className="cardCenter">
               <ul>
                 <li>Passport or a valid ID card</li>
                 <li>Duffel Bag 60 liters</li>
@@ -285,7 +285,7 @@ const Treks = ({ holiday }) => {
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col>
+            <Col md={6} xs={10} className="cardCenter">
               <h3>FITNESS</h3>
               <p>
                 Kashmir Ensueno are achievable by anyone with a healthy
@@ -297,7 +297,7 @@ const Treks = ({ holiday }) => {
                 terrain, much of which at altitudes of above 3000m.
               </p>
             </Col>
-            <Col>
+            <Col md={6} xs={10} className="cardCenter">
               <h6>MINIMUM FITNESS REQUIREMENTS</h6>
               <ul>
                 <li>Trek: up to 10km per day.</li>

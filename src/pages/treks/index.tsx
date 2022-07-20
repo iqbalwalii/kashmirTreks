@@ -26,7 +26,7 @@ const index = () => {
         can arrange your ideal holiday in Kashmir.
       </p>
       <Tabs
-        defaultActiveKey="profile"
+        defaultActiveKey="holiday"
         id="uncontrolled-tab-example"
         className="mb-3"
       >
