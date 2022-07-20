@@ -11,10 +11,10 @@ const Footer = () => {
         <ul className="list-unstyled">
           <li className="text-center">Manigam, Ganderbal,</li>
           <li className="text-center">Kashmir, India-191201.</li>
-          <li className="text-center"> +91 1942951515 </li>
-          <li className="text-center">+91 9906421796</li>
+          <li className="text-center"> +91 6005702825</li>
+          <li className="text-center">+91 9596979729</li>
           <li className="text-center">
-            <a href="mailto:info@kashmirtreks.com">info@kashmirtreks.com</a>
+            <a href="mailto:info@kashmirtreks.com">kashmirensueno@gmail.com</a>
           </li>
           <li className="text-center">
             <Image src="/assets/images/partners.png" width={150} height={100} />
@@ -29,8 +29,18 @@ const Footer = () => {
             <Link href="/holidays">Holidays</Link>
           </li>
           <li className="text-center">
-            <Link href="/holidays" className="reservedLinks">
-              Car Rental
+            <Link href="/treks" className="reservedLinks">
+              Treks
+            </Link>
+          </li>
+          <li className="text-center">
+            <Link href="/bespoke" className="reservedLinks">
+              Bespoke
+            </Link>
+          </li>
+          <li className="text-center">
+            <Link href="/contact" className="reservedLinks">
+              Contact
             </Link>
           </li>
         </ul>
