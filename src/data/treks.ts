@@ -1536,7 +1536,7 @@ const treks = {
   //
   //
   //
-  dachigam_marsar_trek: {
+  dachigam_marsar_lake_trek: {
     name: "DACHIGAM MARSAR TREK",
     stay: "6N7D",
     category: "short",
@@ -1548,7 +1548,7 @@ const treks = {
     altitude: "Sonmasti Pass (4080 Meters)",
     level: 2,
     image:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657639525/slider-bg1_noacre.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329204/df4e1199-8c93-47c1-85c5-fc2cc9337837_Tarsar_Marsar_TM_Kishan_Harwalkar_Tarsar_lake_abby3s.webp",
     introduction: [
       "The Narang-Gangabal-Trek expedition is the only trek in Kashmir which remains open most of the year. The trek is considered as an easy trek, owing to the well established path and the altitude which remains under 3700m asl. The trek passes through pine forests, meadows and reaches its destination at the twin alpine lakes (Gangabal and Nundkol Lake) situated at the foothills of mount Haramukh (5300M).",
       "Though trekking in Kashmir is not the newest but still this expedition is no walk in the park. The first hike is a steep climb through the pine forest of Butsheri then a gradual walking through meadows all collide to create a challenging trek in one of the most beautiful and serene Himalayas of Kashmir. It becomes a snow-trek in April-May and October-November and presents a unique of the Himalayas.",
@@ -1666,7 +1666,7 @@ const treks = {
     altitude: "Basmai Pass (4200m)",
     level: 2,
     image:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657639525/slider-bg1_noacre.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg",
     introduction: [
       "Kolahoi Glacier Trek is a crossover trek from Sind Valley into the Lidder Valley passing Basmai Pass (4200m). The trek passes through high altitude alpine lakes situated at the foothills of Mount Kolahoi (5425m), the highest mountain peak of the Vale of Kashmir. It crosses streams and plenty of colorful meadows.",
 
@@ -1800,7 +1800,7 @@ const treks = {
     altitude: "Nichnai Pass (4080m)",
     level: 2,
     image:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657639525/slider-bg1_noacre.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321686/gl_aho9th.jpg",
     introduction: [
       "The Sonamarg-Vishansr-Trek expedition is a part and the first leg of the Kashmir Great Lakes Trek. The trek passes through pine and birch forests of Shokdari and meadows of Nichnai. The highest point of the trek is Nichnai Pass (4100M) which is crossed to reach the destination at the trek at the twin alpine lakes of Vishansar and Krishansar.",
 
@@ -1927,7 +1927,7 @@ const treks = {
     altitude: "Kolesar Lake (3800m)",
     level: 3,
     image:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321507/gang_oncssl.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658330771/gangbal_lh8srx.jpg",
     introduction: [
       "The Narang-Gangabal-Mahlish-Trek expedition has a different return-route and it remains open most of the year. The trek starts at Naranag village. It passes through pine forests, meadows and reaches its destination at the twin alpine lakes Gangabal and Nundkol situated at the foothills of mount Haramukh (5300M). The return route is through Kolesar Lake situated at an altitude of 3800 meters. The trek concludes at Chattergul Village below the meadow of Mahlish.",
 
@@ -2057,7 +2057,7 @@ const treks = {
     altitude: "Gangabal Lake (3600m)",
     level: 3,
     image:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657639525/slider-bg1_noacre.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1656909389/gulmarg-himachal-wanderon-skiing-5_orig_m2kgeh.jpg",
     introduction: [
       "Kashmir-Snow-Trek expedition is an opportunity for the hikers and nature lovers to explore Kashmir hiking in winter. The trail followed is Naranag-Trunkhol-Gangabal. The snow depth ranges from 1 foot in Naranag to 3 feet at Trunkhol. We use gypsy and forest huts to pitch our tents for accommodation.",
       "Though trekking in Kashmir is not the newest but still this expedition is no walk in the park due to the freezing temperatures. The first hike is a steep climb through the pine forest of Butsheri then a gradual walking through meadows filled in by snow, all collide to create a challenging trek in one of the most beautiful and serene Himalayas of Kashmir.",

@@ -33,7 +33,7 @@ const index = () => {
         <Tab eventKey="holiday" title="Holidays">
           <Row>
             <Link href="holidays/srinagar_leh_nubra_tour">
-              <Col className="mb-5" md={4} xs={10}>
+              <Col className="mb-5 cardCenter" xs={10} md={4}>
                 <div>
                   <Card
                     name={"Srinagar Leh Nubra Tour"}
@@ -44,7 +44,7 @@ const index = () => {
                 </div>
               </Col>
             </Link>
-            <Col className="mb-5" md={4} xs={10}>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="holidays/kashmir_paradise_tour">
                 <div>
                   <Card
@@ -56,7 +56,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5" md={4} xs={10}>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="holidays/kashmir_winter_package_tour">
                 <div>
                   <Card
@@ -68,7 +68,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5" md={4} xs={10}>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="holidays/srinagar_kargil_zanskar_tour">
                 <div>
                   <Card
@@ -80,7 +80,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5" md={4} xs={10}>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="holidays/gulmarg_family_ski_holiday">
                 <div>
                   <Card
@@ -92,7 +92,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5" md={4} xs={10}>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="holidays/kashmir_spring_special_tour">
                 <div>
                   <Card
@@ -108,7 +108,7 @@ const index = () => {
         </Tab>
         <Tab eventKey="long" title="Long Treks">
           <Row>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/kashmir_great_lakes_trek" passHref>
                 <div>
                   <Card
@@ -120,7 +120,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/tulail_gangabal_naranag_trek" passHref>
                 <div>
                   <Card
@@ -132,7 +132,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/aharbal_kounsarnag_trek" passHref>
                 <div>
                   <Card
@@ -144,7 +144,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/sonamarg_vishansar_bandipora_trek" passHref>
                 <div>
                   <Card
@@ -156,7 +156,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/tarsar_marsar_trek" passHref>
                 <div>
                   <Card
@@ -168,7 +168,7 @@ const index = () => {
                 </div>
               </Link>{" "}
             </Col>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/srinagar_warwan_panikhar_trek" passHref>
                 <div>
                   <Card
@@ -180,107 +180,7 @@ const index = () => {
                 </div>
               </Link>
             </Col>
-            <Col className="mb-5">
-              <Link href="/treks/markha_valley_trek" passHref>
-                <div>
-                  <Card
-                    name={"Markha Valley Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-          </Row>
-        </Tab>
-        <Tab eventKey="short" title="Short Treks">
-          <Row>
-            <Col className="mb-5">
-              <Link href="/treks/naranag_marchoi_trek" passHref>
-                <div>
-                  <Card
-                    name={"Naranag Marchoi Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
-              <Link href="/treks/naranag_gangabal_trek" passHref>
-                <div>
-                  <Card
-                    name={"Naranag Gangabal Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
-              <Link href="/treks/kolahoi_glacier_trek" passHref>
-                <div>
-                  <Card
-                    name={"Kolahoi Glacier Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
-              <Link href="/treks/sonamarg_vishansar_trek" passHref>
-                <div>
-                  <Card
-                    name={"Sonamarg Vishansar Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
-              <Link href="/treks/naranag_gangabal_mahlish_trek" passHref>
-                <div>
-                  <Card
-                    name={"Naranag Gangabal Mahlish Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
-              <Link href="/treks/kashmir_snow_trek" passHref>
-                <div>
-                  <Card
-                    name={"Kashmir Snow Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
-              <Link href="/treks/dachigam_marsar_lake_trek" passHref>
-                <div>
-                  <Card
-                    name={"Dachigam Marsar Lake Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
-                    }
-                  />
-                </div>
-              </Link>
-            </Col>
-            <Col className="mb-5">
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
               <Link href="/treks/markha_valley_trek" passHref>
                 <div>
                   <Card
@@ -293,6 +193,97 @@ const index = () => {
               </Link>
             </Col>
             <Col></Col>
+            <Col></Col>
+          </Row>
+        </Tab>
+        <Tab eventKey="short" title="Short Treks">
+          <Row>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/naranag_marchoi_trek" passHref>
+                <div>
+                  <Card
+                    name={"Naranag Marchoi Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658330594/marchoi_w6asle.jpg"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/naranag_gangabal_trek" passHref>
+                <div>
+                  <Card
+                    name={"Naranag Gangabal Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321844/shutterstock_1214208439_xw1tnp.jpg"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/kolahoi_glacier_trek" passHref>
+                <div>
+                  <Card
+                    name={"Kolahoi Glacier Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/sonamarg_vishansar_trek" passHref>
+                <div>
+                  <Card
+                    name={"Sonamarg Vishansar Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321686/gl_aho9th.jpg"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/naranag_gangabal_mahlish_trek" passHref>
+                <div>
+                  <Card
+                    name={"Naranag Gangabal Mahlish Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658330771/gangbal_lh8srx.jpg"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/kashmir_snow_trek" passHref>
+                <div>
+                  <Card
+                    name={"Kashmir Snow Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657636760/500158300915_45205_a1irso.jpg"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col className="mb-5 cardCenter" md={4} xs={10}>
+              <Link href="/treks/dachigam_marsar_lake_trek" passHref>
+                <div>
+                  <Card
+                    name={"Dachigam Marsar Lake Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329204/df4e1199-8c93-47c1-85c5-fc2cc9337837_Tarsar_Marsar_TM_Kishan_Harwalkar_Tarsar_lake_abby3s.webp"
+                    }
+                  />
+                </div>
+              </Link>
+            </Col>
+            <Col></Col>
+            <Col></Col>``
           </Row>
         </Tab>
       </Tabs>

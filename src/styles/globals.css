@@ -111,3 +111,7 @@ a:hover {
   width: 40%;
   text-align: center;
 }
+
+.cardCenter {
+  margin: auto;
+}

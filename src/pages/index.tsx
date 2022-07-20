@@ -63,9 +63,11 @@ export default function Home() {
           </Row>
         </div>
         <div className="d-flex justify-content-center">
-          <Button style={{ background: "#004220" }}>
-            Browse All Destinations
-          </Button>
+          <Link href="/treks">
+            <Button style={{ background: "#004220" }}>
+              Browse All Destinations
+            </Button>
+          </Link>
         </div>
         <div className="paragraph my-5">
           <h2 className="text-center mt-5 underline haeding">KASHMIR </h2>
