@@ -47,15 +47,30 @@ const Footer = () => {
       </Col>
       <Col>
         <h4 className="text-center">GET IN TOUCH</h4>
-        <Form>
+        <Form
+          action="https://public.herotofu.com/v1/feb7c820-084b-11ed-be50-e78da9ee852d"
+          method="post"
+        >
           <Form.Group controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control
+              type="email"
+              placeholder="Enter email"
+              name="email"
+              id="email"
+            />
           </Form.Group>
           <Form.Group controlId="formBasicName" className="my-2">
-            <Form.Control type="text" placeholder="Enter Your Name" />
+            <Form.Control
+              type="text"
+              placeholder="Enter Your Name"
+              name="name"
+              id="name"
+            />
           </Form.Group>
           <div className="d-grid">
-            <Button>Subscribe for Updates</Button>
+            <Button variant="warning" type="submit">
+              Subscribe for Updates
+            </Button>
           </div>
         </Form>
       </Col>
