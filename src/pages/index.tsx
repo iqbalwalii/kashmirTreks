@@ -30,7 +30,7 @@ export default function Home() {
           <h3 className=" mb-3 text-center">FEATURED TOURS</h3>
           <Row className="d-flex justify-content-around">
             <Link href="/treks/tulail_gangabal_naranag_trek">
-              <Col className="mb-4" md={4} xs={10}>
+              <Col className="mb-4" md={4} xs={9}>
                 <Card
                   name={"Tulail - Gangbal - Naranag Trek"}
                   image={
@@ -41,7 +41,7 @@ export default function Home() {
               </Col>
             </Link>
             <Link href="/treks/kolahoi_glacier_trek">
-              <Col className="mb-4" md={4} xs={10}>
+              <Col className="mb-4" md={4} xs={9}>
                 <Card
                   name={"Mount Kolohai Full Glacier Trek"}
                   image={
@@ -51,7 +51,7 @@ export default function Home() {
               </Col>
             </Link>
             <Link href="/treks/srinagar_warwan_panikhar_trek">
-              <Col className="mb-4" md={4} xs={10}>
+              <Col className="mb-4" md={4} xs={9}>
                 <Card
                   name={"Srinagar Warwan Valley Panikhar Trek"}
                   image={
@@ -94,7 +94,7 @@ export default function Home() {
           <h3 className=" mb-3 text-center">FIXED DEPARTURES</h3>
           <Row className="d-flex justify-content-around">
             <Link href="/treks/naranag_gangabal_mahlish_trek">
-              <Col className="mb-4" md={4} xs={10}>
+              <Col className="mb-4" md={4} xs={9}>
                 <Card
                   name={"Gangbal Mahlish Trek"}
                   image={
@@ -105,7 +105,7 @@ export default function Home() {
               </Col>
             </Link>
             <Link href="/treks/kashmir_great_lakes_trek">
-              <Col className="mb-4" md={4} xs={10}>
+              <Col className="mb-4" md={4} xs={9}>
                 <Card
                   name={"kashmir Great Lakes Trek"}
                   image={
@@ -116,7 +116,7 @@ export default function Home() {
               </Col>
             </Link>
             <Link href="/treks/tarsar_marsar_trek">
-              <Col className="mb-4" md={4} xs={10}>
+              <Col className="mb-4" md={4} xs={9}>
                 <Card
                   name={"Tarsar Marsar Trek"}
                   image={
