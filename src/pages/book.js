@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import { useState } from "react";
 import { Holidays, Treks } from "../Types/index";
-const book = () => {
+const Book = () => {
   const [type, setType] = useState("tour");
 
   return (
@@ -443,4 +443,4 @@ const book = () => {
   );
 };
 
-export default book;
+export default Book;
