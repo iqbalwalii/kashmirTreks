@@ -40,10 +40,9 @@ const Holidays = ({ holiday }) => {
         <div className="dark">
           <div className="d-flex-column justify-content-center align-items-center w-50">
             <h5 className="text-center text">{destination?.alternate}</h5>
-            <ButtonGroup className="d-flex justify-content-around">
-              <Button variant="success">Enquire</Button>
+            <Link href="/book">
               <Button variant="warning">Book Now</Button>
-            </ButtonGroup>
+            </Link>
           </div>
         </div>
       </Row>

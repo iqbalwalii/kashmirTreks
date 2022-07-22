@@ -30,7 +30,7 @@ export default function App() {
         <SwiperSlide className={styles.first}>
           <div className={styles.controls}>
             <h2 className="text-light">Best Places to Wander</h2>
-            <Link href="/products">
+            <Link href="/book">
               <Button variant="light" className="mx-1 ">
                 Book Now
               </Button>

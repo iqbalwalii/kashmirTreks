@@ -44,10 +44,10 @@ const Treks = ({ holiday }) => {
               {destination?.name}
               &nbsp;({destination?.stay})
             </h5>
-            <ButtonGroup className="d-flex justify-content-around">
-              <Button variant="success">Enquire</Button>
+
+            <Link href="/book">
               <Button variant="warning">Book Now</Button>
-            </ButtonGroup>
+            </Link>
           </div>
         </div>
       </Row>
