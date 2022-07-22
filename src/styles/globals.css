@@ -115,3 +115,23 @@ a:hover {
 .cardCenter {
   margin: auto;
 }
+
+.cardGroup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.textField {
+  display: flex;
+}
+@media screen and (max-width: 760px) {
+  .textField {
+    flex-direction: column;
+  }
+  .cardGroup {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

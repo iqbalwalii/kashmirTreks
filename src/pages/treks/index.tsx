@@ -31,9 +31,9 @@ const index = () => {
         className="mb-3"
       >
         <Tab eventKey="holiday" title="Holidays">
-          <Row>
+          <section className="cardGroup">
             <Link href="holidays/srinagar_leh_nubra_tour">
-              <Col className="mb-5 cardCenter" xs={10} md={4}>
+              <div className="mb-5 cardCenter">
                 <div>
                   <Card
                     name={"Srinagar Leh Nubra Tour"}
@@ -42,9 +42,9 @@ const index = () => {
                     }
                   />
                 </div>
-              </Col>
+              </div>
             </Link>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            <div className="mb-5 cardCenter">
               <Link href="holidays/kashmir_paradise_tour">
                 <div>
                   <Card
@@ -55,8 +55,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="holidays/kashmir_winter_package_tour">
                 <div>
                   <Card
@@ -67,8 +67,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="holidays/srinagar_kargil_zanskar_tour">
                 <div>
                   <Card
@@ -79,8 +79,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="holidays/gulmarg_family_ski_holiday">
                 <div>
                   <Card
@@ -91,8 +91,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="holidays/kashmir_spring_special_tour">
                 <div>
                   <Card
@@ -103,12 +103,12 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-          </Row>
+            </div>
+          </section>
         </Tab>
         <Tab eventKey="long" title="Long Treks">
-          <Row>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+          <section className="cardGroup">
+            <div className="mb-5 cardCenter">
               <Link href="/treks/kashmir_great_lakes_trek" passHref>
                 <div>
                   <Card
@@ -119,8 +119,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/tulail_gangabal_naranag_trek" passHref>
                 <div>
                   <Card
@@ -131,8 +131,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/aharbal_kounsarnag_trek" passHref>
                 <div>
                   <Card
@@ -143,8 +143,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/sonamarg_vishansar_bandipora_trek" passHref>
                 <div>
                   <Card
@@ -155,8 +155,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/tarsar_marsar_trek" passHref>
                 <div>
                   <Card
@@ -167,8 +167,8 @@ const index = () => {
                   />
                 </div>
               </Link>{" "}
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/srinagar_warwan_panikhar_trek" passHref>
                 <div>
                   <Card
@@ -179,8 +179,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/markha_valley_trek" passHref>
                 <div>
                   <Card
@@ -191,12 +191,12 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-          </Row>
+            </div>
+          </section>
         </Tab>
         <Tab eventKey="short" title="Short Treks">
-          <Row>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+          <section className="cardGroup">
+            <div className="mb-5 cardCenter">
               <Link href="/treks/naranag_marchoi_trek" passHref>
                 <div>
                   <Card
@@ -207,8 +207,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/naranag_gangabal_trek" passHref>
                 <div>
                   <Card
@@ -219,8 +219,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/kolahoi_glacier_trek" passHref>
                 <div>
                   <Card
@@ -231,8 +231,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/sonamarg_vishansar_trek" passHref>
                 <div>
                   <Card
@@ -243,8 +243,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/naranag_gangabal_mahlish_trek" passHref>
                 <div>
                   <Card
@@ -255,8 +255,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/kashmir_snow_trek" passHref>
                 <div>
                   <Card
@@ -267,8 +267,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-            <Col className="mb-5 cardCenter" md={4} xs={10}>
+            </div>
+            <div className="mb-5 cardCenter">
               <Link href="/treks/dachigam_marsar_lake_trek" passHref>
                 <div>
                   <Card
@@ -279,8 +279,8 @@ const index = () => {
                   />
                 </div>
               </Link>
-            </Col>
-          </Row>
+            </div>
+          </section>
         </Tab>
       </Tabs>
     </Container>

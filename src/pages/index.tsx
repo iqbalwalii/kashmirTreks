@@ -28,39 +28,45 @@ export default function Home() {
         </div>
         <div className="featured my-5">
           <h3 className=" mb-3 text-center">FEATURED TOURS</h3>
-          <Row className="d-flex justify-content-around">
-            <Link href="/treks/tulail_gangabal_naranag_trek">
-              <Col className="mb-4" md={4} xs={12}>
-                <Card
-                  name={"Tulail - Gangbal - Naranag Trek"}
-                  image={
-                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322099/3da497d1-d051-408e-be5b-d2e59d94e271_Kashmir_Great_Lakes_KGL_RAJARSHI_MANNA_-_UNDER_THE_SAME_SKY_d5dbph.webp"
-                  }
-                  link={"treks/tulail_gangbal_naranag_trek"}
-                />
-              </Col>
-            </Link>
-            <Link href="/treks/kolahoi_glacier_trek">
-              <Col className="mb-4" md={4} xs={9}>
-                <Card
-                  name={"Mount Kolohai Full Glacier Trek"}
-                  image={
-                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322194/Kolahoi-Glacier-Trek_qsralh.webp"
-                  }
-                />
-              </Col>
-            </Link>
-            <Link href="/treks/srinagar_warwan_panikhar_trek">
-              <Col className="mb-4" md={4} xs={9}>
-                <Card
-                  name={"Srinagar Warwan Valley Panikhar Trek"}
-                  image={
-                    "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322295/9f9c89a8-e9f4-44a9-aca5-5baba75b42d2_Warwan_Valley_-_Subro_-_Village_-_Compressed_wyzdbp.webp"
-                  }
-                />
-              </Col>
-            </Link>
-          </Row>
+          <div className="cardGroup">
+            <div className="mb-4 ">
+              <Link href="/treks/tulail_gangabal_naranag_trek">
+                <div>
+                  <Card
+                    name={"Tulail - Gangbal - Naranag Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322099/3da497d1-d051-408e-be5b-d2e59d94e271_Kashmir_Great_Lakes_KGL_RAJARSHI_MANNA_-_UNDER_THE_SAME_SKY_d5dbph.webp"
+                    }
+                    link={"treks/tulail_gangbal_naranag_trek"}
+                  />
+                </div>
+              </Link>
+            </div>
+            <div className="mb-4 ">
+              <Link href="/treks/kolahoi_glacier_trek">
+                <div>
+                  <Card
+                    name={"Mount Kolohai Full Glacier Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322194/Kolahoi-Glacier-Trek_qsralh.webp"
+                    }
+                  />
+                </div>
+              </Link>
+            </div>
+            <div className="mb-4 ">
+              <Link href="/treks/srinagar_warwan_panikhar_trek">
+                <div>
+                  <Card
+                    name={"Srinagar Warwan Valley Panikhar Trek"}
+                    image={
+                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322295/9f9c89a8-e9f4-44a9-aca5-5baba75b42d2_Warwan_Valley_-_Subro_-_Village_-_Compressed_wyzdbp.webp"
+                    }
+                  />
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="d-flex justify-content-center">
           <Link href="/treks">
@@ -92,9 +98,9 @@ export default function Home() {
         </div>
         <div className="featured my-5">
           <h3 className=" mb-3 text-center">FIXED DEPARTURES</h3>
-          <Row className="d-flex justify-content-around">
+          <section className="cardGroup">
             <Link href="/treks/naranag_gangabal_mahlish_trek">
-              <Col className="mb-4" md={4} xs={9}>
+              <div className="mb-4">
                 <Card
                   name={"Gangbal Mahlish Trek"}
                   image={
@@ -102,10 +108,10 @@ export default function Home() {
                   }
                   btn={true}
                 />
-              </Col>
+              </div>
             </Link>
             <Link href="/treks/kashmir_great_lakes_trek">
-              <Col className="mb-4" md={4} xs={9}>
+              <div className="mb-4">
                 <Card
                   name={"kashmir Great Lakes Trek"}
                   image={
@@ -114,10 +120,10 @@ export default function Home() {
                   btn={true}
                   link={"/treks/kashmir_great_lakes_trek"}
                 />
-              </Col>
+              </div>
             </Link>
             <Link href="/treks/tarsar_marsar_trek">
-              <Col className="mb-4" md={4} xs={9}>
+              <div className="mb-4">
                 <Card
                   name={"Tarsar Marsar Trek"}
                   image={
@@ -125,9 +131,9 @@ export default function Home() {
                   }
                   btn={true}
                 />
-              </Col>
+              </div>
             </Link>
-          </Row>
+          </section>
         </div>
       </Container>
     </>
