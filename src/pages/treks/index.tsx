@@ -5,7 +5,7 @@ import Card from "../../Components/Card";
 const index = () => {
   return (
     <Container style={{ marginTop: "6rem" }}>
-      <h2>KASHMIR TREKS AND TRAILS</h2>
+      <h2>Kashmir Ensueno AND TRAILS</h2>
       <p>
         Kashmir is the ideal trekking destination, with fascinating Himalayan
         landscapes and a sophisticated network of treks at varying altitudes and

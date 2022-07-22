@@ -9,7 +9,7 @@ export default function Home() {
       <Slider />
       <Container>
         <div className="paragraph">
-          <h2 className="text-center mt-5 heading">KASHMIR TREKS</h2>
+          <h2 className="text-center mt-5 heading">Kashmir Ensueno</h2>
           <p className="text-center subheading">Adventure comes alive!</p>
           <p
             className="text-center description"

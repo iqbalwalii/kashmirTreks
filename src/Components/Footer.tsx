@@ -49,6 +49,16 @@ const Footer = () => {
             </Link>
           </li>
           <li className="text-center">
+            <Link href="/policy" className="reservedLinks">
+              Tour Policies
+            </Link>
+          </li>
+          <li className="text-center">
+            <Link href="/faq" className="reservedLinks">
+              FAQ&apos;s
+            </Link>
+          </li>
+          <li className="text-center">
             <a
               href="https://indianvisaonline.gov.in/evisa/tvoa.html"
               className="reservedLinks"

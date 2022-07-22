@@ -19,7 +19,7 @@ const index = () => {
             tourists who visit its historic cities and attractions. The
             magnificent scenery of Gulmarg, Pahalgam, Sonamarg, and Yousmarg
             attracts thousands of tourists every summer. In order to help and
-            guide, Kashmir Treks has designed some packages and also can
+            guide, Kashmir Ensueno has designed some packages and also can
             tailor-make your trip itinerary.
           </p>
           <p>
@@ -29,7 +29,7 @@ const index = () => {
             tourists who visit its historic cities and attractions. The
             magnificent scenery of Gulmarg, Pahalgam, Sonamarg, and Yousmarg
             attracts thousands of tourists every summer. In order to help and
-            guide, Kashmir Treks has designed some packages and also can
+            guide, Kashmir Ensueno has designed some packages and also can
             tailor-make your trip itinerary.
           </p>
         </Col>
