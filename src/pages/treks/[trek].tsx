@@ -11,6 +11,7 @@ import {
   ButtonGroup,
   Spinner,
 } from "react-bootstrap";
+import Link from "next/link";
 const Treks = ({ holiday }) => {
   const trip = holiday.trek;
   const [destination, setDestination] = useState(holidays[trip]);

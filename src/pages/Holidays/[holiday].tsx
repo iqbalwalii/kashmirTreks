@@ -10,6 +10,7 @@ import {
   ButtonGroup,
   Spinner,
 } from "react-bootstrap";
+import Link from "next/link";
 const Holidays = ({ holiday }) => {
   const trip = holiday.holiday;
   const [destination, setDestination] = useState(holidays[trip]);
