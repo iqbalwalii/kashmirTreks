@@ -28,6 +28,7 @@ const contact = () => {
                 name="email"
                 id="email"
                 placeholder="Enter Email"
+                required
               />
             </FloatingLabel>
             <FloatingLabel className="mb-2" controlId="name" label="Enter Name">
@@ -36,6 +37,7 @@ const contact = () => {
                 name="Name"
                 id="Name"
                 placeholder="Enter Name"
+                required
               />
             </FloatingLabel>
             <FloatingLabel className="mb-2" controlId="subject" label="Subject">
@@ -44,6 +46,7 @@ const contact = () => {
                 name="subject"
                 id="subject"
                 placeholder="Subject"
+                required
               />
             </FloatingLabel>
             <FloatingLabel
@@ -57,11 +60,18 @@ const contact = () => {
                 id="Message"
                 placeholder="Message"
                 style={{ height: "100px" }}
+                required
               />
             </FloatingLabel>
-            <Button type="submit" variant="success" className="mt-2">
-              Submit{" "}
-            </Button>
+            <div className="d-grid">
+              <Button
+                type="submit"
+                style={{ background: "#5B3511" }}
+                className="mt-2"
+              >
+                Submit
+              </Button>
+            </div>
           </Form>
         </Col>
       </Row>

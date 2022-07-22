@@ -30,7 +30,7 @@ export default function Home() {
           <h3 className=" mb-3 text-center">FEATURED TOURS</h3>
           <Row className="d-flex justify-content-around">
             <Link href="/treks/tulail_gangabal_naranag_trek">
-              <Col className="mb-4" md={4} xs={9}>
+              <Col className="mb-4" md={4} xs={12}>
                 <Card
                   name={"Tulail - Gangbal - Naranag Trek"}
                   image={
