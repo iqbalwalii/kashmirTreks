@@ -20,10 +20,9 @@ const CardView = (props) => {
         </Card.Body>
         {props?.btn ? (
           <div className="d-grid">
-            <Button style={{ background: "#004220" }} className="my-1">
-              Enquire
-            </Button>
-            <Button variant="warning">Book Now</Button>
+            <Link href="/book">
+              <Button variant="warning">Book Now</Button>
+            </Link>
           </div>
         ) : (
           ""

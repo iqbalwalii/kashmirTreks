@@ -112,6 +112,7 @@ export default function Home() {
                     "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321686/gl_aho9th.jpg"
                   }
                   btn={true}
+                  link={"/treks/kashmir_great_lakes_trek"}
                 />
               </Col>
             </Link>

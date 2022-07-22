@@ -136,6 +136,7 @@ const Faq = () => {
                 <a
                   href="https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658467486/Meal-Plan_copy_wd3dp5.jpg"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <b>trek meal plan.</b>
                 </a>
@@ -273,7 +274,11 @@ const Faq = () => {
             <Accordion.Body>
               <p>
                 We recommend &nbsp;
-                <a href="https://www.jkhandicrafts.com" target="_blank">
+                <a
+                  href="https://www.jkhandicrafts.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <b>Kashmir Government Arts Emporiums</b>
                 </a>
                 &nbsp; Srinagar situated at Emporium Building, Residency Road,
