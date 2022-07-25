@@ -12,7 +12,6 @@ const Footer = () => {
           <li className="text-center">Manigam, Ganderbal,</li>
           <li className="text-center">Kashmir, India-191201.</li>
           <li className="text-center"> +91 6005702825</li>
-          <li className="text-center">+91 9596979729</li>
           <li className="text-center">
             <a href="mailto:info@kashmirtreks.com">kashmirensueno@gmail.com</a>
           </li>
