@@ -42,7 +42,9 @@ const Holidays = ({ holiday }) => {
           <div className="d-flex-column justify-content-center align-items-center w-50">
             <h5 className="text-center text">{destination?.alternate}</h5>
             <Link href="/book">
-              <Button variant="warning">Book Now</Button>
+              <div className="d-flex justify-content-center">
+                <Button variant="warning">Book Now</Button>
+              </div>
             </Link>
           </div>
         </div>

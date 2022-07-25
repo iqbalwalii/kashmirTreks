@@ -43,9 +43,10 @@ const Treks = ({ holiday }) => {
               {destination?.name}
               &nbsp;({destination?.stay})
             </h5>
-
             <Link href="/book">
-              <Button variant="warning">Book Now</Button>
+              <div className="d-flex justify-content-center">
+                <Button variant="warning">Book Now</Button>
+              </div>
             </Link>
           </div>
         </div>
