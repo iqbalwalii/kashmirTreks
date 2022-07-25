@@ -25,9 +25,9 @@ const Footer = () => {
       <Col>
         <h4 className="text-center ">USEFUL LINKS</h4>
         <ul className="list-unstyled ">
-          <li className="text-center">
+          {/* <li className="text-center">
             <Link href="/holidays">Holidays</Link>
-          </li>
+          </li> */}
           <li className="text-center">
             <Link href="/treks" className="reservedLinks">
               Treks

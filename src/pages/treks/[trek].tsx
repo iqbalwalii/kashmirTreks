@@ -1,14 +1,12 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import holidays from "../../data/treks";
-import Image from "react-simple-image-viewer";
 import {
   Row,
   Col,
   Container,
   Accordion,
   Button,
-  ButtonGroup,
   Spinner,
 } from "react-bootstrap";
 import Link from "next/link";
