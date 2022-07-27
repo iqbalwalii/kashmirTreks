@@ -71,7 +71,7 @@ const policy = () => {
               For the purpose of the Information Technology Act, 2000, the
               (Indian) Contract Act, 1872 and ODR, the data controller Kashmir
               Treks is registered with the Department of Tourism, Government of
-              Jammu and Kashmir as Kashmir Alpine Treks.
+              Jammu and Kashmir as Kashmir Ensueno.
               <br />
               If our privacy policy changes in the future, it will be posted.
               You should access our privacy policy regularly to ensure you
@@ -257,7 +257,7 @@ const policy = () => {
               <br /> <br />
               All requests for refunds must be submitted in writing as soon as
               possible to Kashmir Ensueno, please e-mail us at
-              info@kashmirtreks.com
+              kashmirensueno@gmail.com
               <br /> <br />
               The cancellation charges are as under: Cancellations prior to 90
               days from the start of the trip — full refund. Cancellation
