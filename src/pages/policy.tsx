@@ -521,7 +521,7 @@ const policy = () => {
             <p>
               At all times your contract will be with Kashmir Ensueno. The name
               Kashmir Ensueno is (licensed with Kashmir Tourism Department as
-              KASHMIR ALPINE TREKS). <br /> <br />
+              KASHMIR ENSUENO). <br /> <br />
               All website content including photographs are the exclusive
               property of Kashmir Ensueno and is a Kashmir Ensueno copyright.
             </p>
