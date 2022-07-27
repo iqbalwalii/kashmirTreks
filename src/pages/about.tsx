@@ -30,7 +30,7 @@ const about = () => {
           <h6>Founder/ CEO</h6>
           <h5>Riyaz Ahmad</h5>
           <Image
-            src="https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657636760/500158300915_45205_a1irso.jpg"
+            src="https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658942163/IMG-20220727-WA0015_gzhgam.jpg"
             width={350}
             height={250}
             alt="Riyaz"

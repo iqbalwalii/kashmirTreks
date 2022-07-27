@@ -17,16 +17,17 @@ const imprint = () => {
             <br /> Ganderbal, Jammu and Kashmir, <br />
             India-191201.
             <br />
-            Registration Number: – T/1556/374/DTK/L-07/P-20 <br />
+            Registration Number: – JKEA00000789 <br />
             (Registered by Tourism Department, Kashmir).
-            <br /> PAN: – AAVFK7999R
-            <br /> Email: info@kashmirtreks.com <br />
-            Phone: +91 9906421796 <br />
+            <br /> PAN: – BDXPA6060K
+            <br /> Email: kashmirensueno@gmail.com
+            <br />
+            Phone: +91 6005702825 <br />
             <br />
             <b className="text-success mt-3">Contact Person</b>
             <br />
             Riyaz Ahmad
-            <br /> info@kashmirensueno.com
+            <br /> kashmirensueno@gmail.com
           </p>
         </Col>
         <Col md={8} xs={10} className="cardCenter">
