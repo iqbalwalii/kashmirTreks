@@ -13,7 +13,7 @@ const imprint = () => {
               protection law is:
             </b>
             <br />
-            Kashmir Alpine Treks,
+            Kashmir Ensueno,
             <br /> Ganderbal, Jammu and Kashmir, <br />
             India-191201.
             <br />
