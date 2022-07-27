@@ -6,9 +6,9 @@ const about = () => {
   return (
     <Container>
       <Row style={{ marginTop: "6rem" }}>
-        <Col xs={10} md={8}>
+        <Col xs={12} md={8}>
           <h1>About Us</h1>
-          <p>
+          <p className="p-2">
             Kashmir Ensueno is based in Srinagar, Kashmir. Owned and operated by
             a group of trekkers who are born and raised in the vale of Kashmir.
             “We would like others to feel the same joy that we do. We love being
@@ -26,7 +26,7 @@ const about = () => {
             best tour for you.
           </p>
         </Col>
-        <Col xs={10} md={4}>
+        <Col xs={12} md={4}>
           <h6>Founder/ CEO</h6>
           <h5>Riyaz Ahmad</h5>
           <Image
@@ -36,7 +36,7 @@ const about = () => {
             alt="Riyaz"
             layout="responsive"
           />
-          <p className="mt-2">
+          <p className="mt-2 p-2">
             Riyaz Mir as a founder and Operator of Kashmir Ensueno is a travel
             entrepreneur and a presenter of Kashmir Tourism. Being a mountain
             lover has made adventure tourism his profession. Guided many

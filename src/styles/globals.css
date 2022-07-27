@@ -125,7 +125,13 @@ a:hover {
 .textField {
   display: flex;
 }
+.text {
+  text-align: start;
+}
 @media screen and (max-width: 760px) {
+  .text {
+    text-align: center;
+  }
   .textField {
     flex-direction: column;
   }
