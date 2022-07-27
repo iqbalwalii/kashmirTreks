@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <Row className={styles.main}>
-      <Col>
+      <Col xs={12} md={3} className=" p-5 p-5">
         <h4 className="text-center">ADDRESS INFO</h4>
         <ul className="list-unstyled">
           <li className="text-center">Manigam, Ganderbal,</li>
@@ -23,7 +23,7 @@ const Footer = () => {
         </ul>
       </Col>
 
-      <Col>
+      <Col xs={12} md={3} className=" p-5">
         <h4 className="text-center ">USEFUL LINKS</h4>
         <ul className="list-unstyled ">
           {/* <li className="text-center">
@@ -70,11 +70,12 @@ const Footer = () => {
           </li>
         </ul>
       </Col>
-      <Col>
+      <Col xs={12} md={3} className=" p-5">
         <h4 className="text-center">GET IN TOUCH</h4>
         <Form
           action="https://public.herotofu.com/v1/feb7c820-084b-11ed-be50-e78da9ee852d"
           method="post"
+          className="d-flex flex-column align-items-center"
         >
           <Form.Group controlId="formBasicEmail">
             <Form.Control
@@ -99,7 +100,7 @@ const Footer = () => {
           </div>
         </Form>
       </Col>
-      <Col>
+      <Col xs={12} md={3} className=" p-5">
         <h4 className="text-center">FOLLOW US</h4>
         <ul className="list-unstyled">
           <li className="text-center">Instagram</li>
