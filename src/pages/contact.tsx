@@ -12,7 +12,7 @@ const contact = () => {
   return (
     <Container>
       <Row style={{ marginTop: "6rem" }}>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="p-3">
           <h2>Contact</h2>
           <Form
             action="https://public.herotofu.com/v1/2c901aa0-0918-11ed-be50-e78da9ee852d"
@@ -67,7 +67,7 @@ const contact = () => {
               <Button
                 type="submit"
                 style={{ background: "#5B3511" }}
-                className="mt-2"
+                className="mt-2 mb-5"
               >
                 Submit
               </Button>

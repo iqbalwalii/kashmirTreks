@@ -10,7 +10,7 @@ const treks = {
     distance: "68km",
     altitude: "Gadsar pass 4180m",
     altitude_map:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657629687/Great-Lakes-Altitude-Map_huuxf3.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659072847/Great-Lakes-Altitude-Map_hhn0v9.jpg",
     level: 3,
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657628985/IMG_20180827_101928_HDR_fnuz1b.jpg",

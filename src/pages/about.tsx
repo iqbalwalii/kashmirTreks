@@ -6,9 +6,9 @@ const about = () => {
   return (
     <Container>
       <Row style={{ marginTop: "6rem" }}>
-        <Col xs={12} md={8}>
+        <Col xs={12} md={8} className="p-3">
           <h1>About Us</h1>
-          <p className="p-2">
+          <p>
             Kashmir Ensueno is based in Srinagar, Kashmir. Owned and operated by
             a group of trekkers who are born and raised in the vale of Kashmir.
             “We would like others to feel the same joy that we do. We love being
@@ -26,7 +26,7 @@ const about = () => {
             best tour for you.
           </p>
         </Col>
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} className="p-3">
           <h6>Founder/ CEO</h6>
           <h5>Riyaz Ahmad</h5>
           <Image

@@ -76,14 +76,11 @@ export default function Home() {
           </Link>
         </div>
         <div className="paragraph my-5">
-          <h2 className="text-center mt-5 underline haeding">KASHMIR </h2>
+          <h2 className="text-center mt-5  heading">KASHMIR </h2>
           <p className="text-center subheading">
             A Summer Escape and a Winter Playground
           </p>
-          <p
-            className="text-center description"
-            // style={{ fontFamily: "Caveat, cursive", fontSize: "1.5rem" }}
-          >
+          <p className="text-center description">
             Kashmir is one of the most popular travel destinations in South
             Asia. It nurtures breathtaking views under snow-covered mountains,
             an evergreen valley during the summers, and a twinkling night sky.

@@ -60,7 +60,7 @@ const Treks = ({ holiday }) => {
           {destination?.departure} <br />
           <h6 className="d-inline text-success"> Best Time:</h6>&nbsp;
           {destination?.best_time}
-          <div className="box mt-2">
+          <div className="box my-4">
             <h6>
               <a
                 href={destination?.altitude_map}

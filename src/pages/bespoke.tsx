@@ -11,7 +11,7 @@ const bespoke = () => {
   return (
     <Container>
       <Row style={{ marginTop: "6rem" }}>
-        <Col md={6} xs={10} className="cardCenter ">
+        <Col md={6} xs={10} className="cardCenter pt-3">
           <h2>BESPOKE FULL SERVICE ITINERARY</h2>
           <p>
             The foundation of Kashmir Ensueno is based on the bespoke travel
@@ -30,8 +30,8 @@ const bespoke = () => {
             crafting every moment of your stay.
           </p>
         </Col>
-        <Col>
-          <h5>Let&apos;s Design your Tour</h5>
+        <Col className="p-5 pt-3">
+          <h4>Let&apos;s Design your Tour</h4>
           <Form
             action="https://public.herotofu.com/v1/0e6ef160-0849-11ed-be50-e78da9ee852d"
             method="post"
@@ -71,12 +71,14 @@ const bespoke = () => {
                 placeholder="Leave a comment here"
                 name="message"
                 id="message"
-                style={{ height: "100px" }}
+                style={{ height: "180px" }}
               />
             </FloatingLabel>
-            <Button variant="success" type="submit" className="mt-2">
-              Submit
-            </Button>
+            <div className="d-grid">
+              <Button variant="success" type="submit" className="mt-2">
+                Submit
+              </Button>
+            </div>
           </Form>
         </Col>
       </Row>
