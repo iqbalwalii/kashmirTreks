@@ -3,11 +3,13 @@ import Slider from "../Components/Carousel";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import Card from "../Components/Card";
 import Link from "next/link";
+import Sunday from "../Components/sunday";
 export default function Home() {
   return (
     <>
       <Slider />
       <Container>
+        <Sunday />
         <div className="paragraph">
           <h2 className="text-center mt-5 heading">Kashmir Ensueno</h2>
           <p className="text-center subheading">Adventure comes alive!</p>
@@ -26,8 +28,8 @@ export default function Home() {
             friendly, personal, secure, and authentic mountain experience.
           </p>
         </div>
-        <div className="featured my-5">
-          <h3 className=" mb-3 text-center">FEATURED TOURS</h3>
+        <div className="featured my-4">
+          <h1 className=" mb-3 text-center qimm">FEATURED TOURS</h1>
           <div className="cardGroup">
             <div className="mb-4 ">
               <Link href="/treks/tulail_gangabal_naranag_trek">
@@ -38,6 +40,7 @@ export default function Home() {
                       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322099/3da497d1-d051-408e-be5b-d2e59d94e271_Kashmir_Great_Lakes_KGL_RAJARSHI_MANNA_-_UNDER_THE_SAME_SKY_d5dbph.webp"
                     }
                     link={"treks/tulail_gangbal_naranag_trek"}
+                    type={"trek"}
                   />
                 </div>
               </Link>
@@ -50,6 +53,7 @@ export default function Home() {
                     image={
                       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322194/Kolahoi-Glacier-Trek_qsralh.webp"
                     }
+                    type={"trek"}
                   />
                 </div>
               </Link>
@@ -62,6 +66,7 @@ export default function Home() {
                     image={
                       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322295/9f9c89a8-e9f4-44a9-aca5-5baba75b42d2_Warwan_Valley_-_Subro_-_Village_-_Compressed_wyzdbp.webp"
                     }
+                    type={"trek"}
                   />
                 </div>
               </Link>
@@ -93,8 +98,8 @@ export default function Home() {
             trekking and hiking expeditions.
           </p>
         </div>
-        <div className="featured my-5">
-          <h3 className=" mb-3 text-center">FIXED DEPARTURES</h3>
+        <div className="featured my-4">
+          <h3 className=" mb-3 text-center qimm">FIXED DEPARTURES</h3>
           <section className="cardGroup">
             <Link href="/treks/naranag_gangabal_mahlish_trek">
               <div className="mb-4">
@@ -104,6 +109,7 @@ export default function Home() {
                     "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321844/shutterstock_1214208439_xw1tnp.jpg"
                   }
                   btn={true}
+                  type={"trek"}
                 />
               </div>
             </Link>
@@ -116,6 +122,7 @@ export default function Home() {
                   }
                   btn={true}
                   link={"/treks/kashmir_great_lakes_trek"}
+                  type={"trek"}
                 />
               </div>
             </Link>
@@ -127,10 +134,18 @@ export default function Home() {
                     "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321775/taesae_tjh0je.webp"
                   }
                   btn={true}
+                  type={"trek"}
                 />
               </div>
             </Link>
           </section>
+        </div>
+        <div className="d-flex justify-content-center mb-5">
+          <Link href="/treks">
+            <Button style={{ background: "#004220" }}>
+              Browse All Destinations
+            </Button>
+          </Link>
         </div>
       </Container>
     </>

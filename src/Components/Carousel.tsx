@@ -30,25 +30,27 @@ export default function App() {
         <SwiperSlide className={styles.first}>
           <div className={styles.controls}>
             <h2 className="text-light">Best Places to Wander</h2>
-            <Link href="/book">
+            <Link href="/treks">
               <Button variant="light" className="mx-1 ">
-                Book Now
+                Browse Treks
               </Button>
             </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.second}>
           <div className={styles.controls}>
-            <h2 className="text-light">what lies beyond</h2>
-            <Link href="/book">
-              <Button variant="light">Book Now</Button>
+            <h2 className="text-light">Fil Your Heart with Adventure</h2>
+            <Link href="/holidays">
+              <Button variant="light" className="mx-1 ">
+                Browse Tours
+              </Button>
             </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.last}>
           <div className={styles.controls}>
-            <h2 className="text-light">Adventure lies within us</h2>
-            <Link href="/book">
+            <h2 className="text-light">Visit Srinagar</h2>
+            <Link href="/holidays/kashmir_spring_special_tour">
               <Button variant="light">Book Now</Button>
             </Link>
           </div>

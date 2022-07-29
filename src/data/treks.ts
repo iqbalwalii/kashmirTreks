@@ -201,7 +201,7 @@ const treks = {
     distance: "41km",
     altitude: "Zajbal pass 4080m",
     altitude_map:
-      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657629687/Great-Lakes-Altitude-Map_huuxf3.jpg",
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128154/Tulel-Altitude-Map-1_copy_htzvzq.jpg",
     level: 3,
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321844/shutterstock_1214208439_xw1tnp.jpg",
@@ -781,6 +781,8 @@ const treks = {
     distance: "48km",
     altitude: "Sonmasti Pass (4100m)",
     level: 3,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128683/Tarsar-Altitude-Map_copy_owhcm4.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657639525/slider-bg1_noacre.jpg",
     introduction: [
@@ -951,6 +953,8 @@ const treks = {
     distance: "61km",
     altitude: "Botkhol Pass (4390m)",
     level: 4,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128154/Wardwan-Altitude-Map-1_aqwd6y.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1657639525/slider-bg1_noacre.jpg",
     introduction: [
@@ -1435,6 +1439,8 @@ const treks = {
     distance: "30 km",
     altitude: "Marchoi Meadow (3200m)",
     level: 2,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128155/NARANAG-GANGABAL-ALTITUDE-MAP-1_copy_jsyy7f.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321507/gang_oncssl.jpg",
     introduction: [
@@ -1672,6 +1678,8 @@ const treks = {
     distance: "42 km",
     altitude: "Basmai Pass (4200m)",
     level: 2,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128155/Kolahoi-Altitude-Map_copy_kc9lei.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658329283/ps4m2oq1gq16gb1hsmw61o91i3b1_1524635872_shutterstock_246933463_c1jvyf.jpg",
     introduction: [
@@ -1806,6 +1814,8 @@ const treks = {
     distance: "42 km",
     altitude: "Nichnai Pass (4080m)",
     level: 2,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128155/SONMARG_VISHANSAR_zv27hq.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321686/gl_aho9th.jpg",
     introduction: [
@@ -1933,6 +1943,8 @@ const treks = {
     distance: "33 km",
     altitude: "Kolesar Lake (3800m)",
     level: 3,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128155/Mahlish-Altitude-Map_copy_bqkvuk.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658330771/gangbal_lh8srx.jpg",
     introduction: [
@@ -2063,6 +2075,8 @@ const treks = {
     distance: "30 km",
     altitude: "Gangabal Lake (3600m)",
     level: 3,
+    altitude_map:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1659128154/Snow-Trek-Altitude-Map-1_copy_sgbzjs.jpg",
     image:
       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1656909389/gulmarg-himachal-wanderon-skiing-5_orig_m2kgeh.jpg",
     introduction: [

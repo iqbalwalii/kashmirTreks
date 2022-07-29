@@ -7,39 +7,25 @@ import {
   FloatingLabel,
   Button,
   ButtonGroup,
+  Spinner,
 } from "react-bootstrap";
 import { useState } from "react";
+import { useRouter } from "next/router";
 import { Holidays, Treks } from "../Types/index";
 const Book = () => {
-  const [type, setType] = useState("tour");
+  const router = useRouter();
+  const name = router.query.name;
+  const [type, setType] = useState(name);
 
   return (
     <Container style={{ marginTop: "6rem" }}>
-      <h1>{`${type.toUpperCase()} BOOKING FORM`}</h1>
-      <ButtonGroup>
-        <Button
-          variant="danger"
-          value="trek"
-          onClick={(e) => setType(e.target.value)}
-        >
-          Trek
-        </Button>
-        <Button
-          variant="success"
-          value="tour"
-          onClick={(e) => setType(e.target.value)}
-        >
-          Tour
-        </Button>
-        <Button
-          disabled
-          variant="warning"
-          value="daytrip"
-          onClick={(e) => setType(e.target.value)}
-        >
-          Day Tour
-        </Button>
-      </ButtonGroup>
+      {type ? (
+        <h1>{`${type.toUpperCase()} BOOKING FORM`}</h1>
+      ) : (
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      )}
       <h6></h6>
       {type === "tour" ? (
         <Form
@@ -225,7 +211,7 @@ const Book = () => {
             </Button>
           </div>
         </Form>
-      ) : (
+      ) : type == "trek" ? (
         <Form
           action="https://public.herotofu.com/v1/55bd0490-0983-11ed-be50-e78da9ee852d"
           method="post"
@@ -433,6 +419,71 @@ const Book = () => {
               type="submit"
               style={{ background: "#5B3511" }}
               className="my-2"
+            >
+              Submit
+            </Button>
+          </div>
+        </Form>
+      ) : (
+        <Form>
+          <FloatingLabel className="mb-3" label="Name">
+            <Form.Control
+              type="text"
+              name="Name"
+              id="Name"
+              placeholder="Enter Name"
+              required
+            />
+          </FloatingLabel>
+          <FloatingLabel className="mb-3" label="Email">
+            <Form.Control
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+              required
+            />
+          </FloatingLabel>
+          <FloatingLabel className="mb-3" label="Phone Number">
+            <Form.Control
+              type="text"
+              name="phoneNumber"
+              id="phoneNumber"
+              placeholder="Enter Phone Number"
+              required
+            />
+          </FloatingLabel>
+          <FloatingLabel className="mb-3" label="Address">
+            <Form.Control
+              type="text"
+              name="Address"
+              id="Address"
+              placeholder="Enter Address"
+              required
+            />
+          </FloatingLabel>
+          <FloatingLabel className="mb-3" label="Amount">
+            <Form.Control
+              type="text"
+              name="fee"
+              id="fee"
+              value={400}
+              placeholder="Amount"
+              required
+              disabled
+            />
+          </FloatingLabel>
+          <Form.Check
+            type="checkbox"
+            label="I Accept the fact that if anything would happen to me during this trek, Nobody but myself will be held accountable for it. I understand that I will be responsible for my own safety and I will be held accountable for any damage I cause to others. I wil be held accountable for any damage I cause to myself. I will be responsible for my Personal Items that i bring with myself"
+            id="customControlValidation"
+            required
+          />
+          <div className="d-grid">
+            <Button
+              className="my-3"
+              type="submit"
+              style={{ background: "#5B3511" }}
             >
               Submit
             </Button>

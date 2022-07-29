@@ -7,11 +7,11 @@ import {
   Container,
   Accordion,
   Button,
-  ButtonGroup,
   Spinner,
 } from "react-bootstrap";
-import Link from "next/link";
+import { useRouter } from "next/router";
 const Holidays = ({ holiday }) => {
+  const router = useRouter();
   const trip = holiday.holiday;
   const [destination, setDestination] = useState(holidays[trip]);
   useEffect(() => {
@@ -41,11 +41,19 @@ const Holidays = ({ holiday }) => {
         <div className="dark">
           <div className="d-flex-column justify-content-center align-items-center w-50">
             <h5 className="text-center text">{destination?.alternate}</h5>
-            <Link href="/book">
-              <div className="d-flex justify-content-center">
-                <Button variant="warning">Book Now</Button>
-              </div>
-            </Link>
+            <div className="d-flex justify-content-center">
+              <Button
+                variant="warning"
+                onClick={() =>
+                  router.push({
+                    pathname: "/book",
+                    query: { name: "tour" },
+                  })
+                }
+              >
+                Book Your Slot
+              </Button>
+            </div>
           </div>
         </div>
       </Row>

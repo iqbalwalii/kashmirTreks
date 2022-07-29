@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import holidays from "../../data/treks";
+import { useRouter } from "next/router";
 import {
   Row,
   Col,
@@ -11,6 +12,7 @@ import {
 } from "react-bootstrap";
 import Link from "next/link";
 const Treks = ({ holiday }) => {
+  const router = useRouter();
   const trip = holiday.trek;
   const [destination, setDestination] = useState(holidays[trip]);
   useEffect(() => {
@@ -43,11 +45,19 @@ const Treks = ({ holiday }) => {
               {destination?.name}
               &nbsp;({destination?.stay})
             </h5>
-            <Link href="/book">
-              <div className="d-flex justify-content-center">
-                <Button variant="warning">Book Now</Button>
-              </div>
-            </Link>
+            <div className="d-flex justify-content-center">
+              <Button
+                variant="warning"
+                onClick={() =>
+                  router.push({
+                    pathname: "/book",
+                    query: { name: "trek" },
+                  })
+                }
+              >
+                Book Your Slot
+              </Button>
+            </div>
           </div>
         </div>
       </Row>

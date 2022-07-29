@@ -2,7 +2,16 @@ import Image from "next/image";
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Link from "next/link";
+import { useRouter } from "next/router";
 const CardView = (props) => {
+  const router = useRouter();
+  const onClickHandler = (e) => {
+    e.preventDefault();
+    router.push({
+      pathname: "/book",
+      query: { name: `${props.type}` },
+    });
+  };
   return (
     <div>
       {/* <Link href={props?.link}> */}
@@ -20,9 +29,9 @@ const CardView = (props) => {
         </Card.Body>
         {props?.btn ? (
           <div className="d-grid">
-            <Link href="/book">
-              <Button variant="warning">Book Now</Button>
-            </Link>
+            <Button variant="warning" onClick={onClickHandler}>
+              Book Now
+            </Button>
           </div>
         ) : (
           ""

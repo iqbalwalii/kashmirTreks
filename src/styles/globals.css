@@ -72,6 +72,20 @@ a:hover {
   color: #004220;
   font-family: caveat, cursive;
 }
+.subHeading {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  font-weight: bolder !important;
+  color: #5b3511;
+  font-family: caveat, cursive;
+}
+.bg {
+  background-color: #f2ff0073;
+  color: #000;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
 .description {
   font-size: 1.2rem;
   padding: 1rem;
@@ -79,6 +93,12 @@ a:hover {
   margin: 0;
   font-family: Poppins, sans-serif;
   text-transform: lowercase;
+}
+.qimm {
+  font-size: 2rem;
+  font-weight: bolder !important;
+  color: #004220 !important;
+  padding: 1rem;
 }
 .imagehead {
   padding: 0 !important;
