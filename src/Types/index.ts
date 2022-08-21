@@ -1,0 +1,26 @@
+export enum Holidays {
+  srinagar_leh_nubra_tour = "Srinagar Leh Nubra Tour",
+  kashmir_paradise_tour = "Kashmir Paradise Tour",
+  kashmir_winter_package_tour = "Kashmir Winter Package Tour",
+  srinagar_kargil_zanskar_tour = "Srinagar Kargil Zanskar Tour",
+  gulmarg_family_ski_holiday = "Gulmarg Family Ski Holiday",
+  // gure_valley_cycling_trail = "Gure Valley Cycling Trail",
+  kashmir_spring_special_tour = "Kashmir Spring Special Tour",
+  // kashmir_car_rental = "Kashmir Car Rental",
+}
+export enum Treks {
+  kashmir_great_lakes_trek = "Kashmir Great Lakes Trek",
+  tulail_gangabal_naranag_trek = "Tulail Gangabal Naranag Trek",
+  aharbal_kounsarnag_trek = "Aharbal Kounsarnag Trek",
+  sonamarg_vishansar_bandipora_trek = "sonamarg Vishansar Bandipora Trek",
+  tarsar_marsar_trek = "Tarsar Marsar Trek",
+  srinagar_warwan_panikhar_trek = "Srinagar Warwan Panikhar Trek",
+  markha_valley_trek = "Markha Valley Trek",
+  naranag_marchoi_trek = "Naranag Marchoi Trek",
+  naranag_gangbal_trek = "Naranag Gangbal Trek",
+  dachigam_marsar_lake_trek = "Dachigam Marsar Lake Trek",
+  kolahoi_glacier_trek = "Kolahoi Glacier Trek",
+  sonamarg_vishansar_trek = "Sonamarg Vishansar Trek",
+  naranag_gangabal_mahlish_trek = "Naranag Gangabal Mahlish Trek",
+  kashmir_snow_trek = "Kashmir Snow Trek",
+}
