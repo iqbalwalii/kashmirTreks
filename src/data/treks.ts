@@ -1334,7 +1334,7 @@ const treks = {
   //
   //
   naranag_marchoi_trek: {
-    name: "IQBAL WALI",
+    name: "NARANAG MARCOI TREK",
     stay: "2N3D",
     category: "short",
     arrival: "Srinagar, Kashmir",
