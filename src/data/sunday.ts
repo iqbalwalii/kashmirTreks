@@ -1,6 +1,6 @@
 const sunday = {
   title: "Sunday Trek",
-  name: "Kounsarnag Lake Trek",
+  name: "Bihari Lake trek",
   type: "meadow", // "trek", "meadow", "valley", "Alpine Lake", "camp", "hike", "nature", "wildlife", "waterfall", "scenic", "other"
   description: "Bookings Open",
   drive: "4 hours (ROund Trip)",
