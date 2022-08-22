@@ -20,7 +20,7 @@ const holidays = {
       "Meals",
       "Shikara Boat Ride",
       "Gondola Ride",
-      "Entry Fee",
+      " Fee",
     ],
     exclusions: [
       "International or domestic flights",
