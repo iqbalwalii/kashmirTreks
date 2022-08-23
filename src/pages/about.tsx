@@ -10,7 +10,7 @@ const about = () => {
           <h1>About Us</h1>
           <p>
             Kashmir Ensueno is based in Srinagar, Kashmir. Owned and operated by
-            a group of trekkers who are born and raised in the vale of Kashmir.
+            a group of trekkers who are born and raised in the valley of Kashmir.
             “We would like others to feel the same joy that we do. We love being
             trekkers so much that we made it our job. Let us help you get the
             most from your trekking experiences. Let us help you arrange and
