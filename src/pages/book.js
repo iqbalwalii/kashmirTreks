@@ -15,19 +15,22 @@ import { Holidays, Treks } from "../Types/index";
 const Book = () => {
   const router = useRouter();
   const name = router.query.name;
+  console.log(name);
   const [type, setType] = useState(name);
 
   return (
     <Container style={{ marginTop: "6rem" }}>
       {type ? (
         <h1>{`${type.toUpperCase()} BOOKING FORM`}</h1>
+      ) : type == undefined ? (
+        <h1>{`Tour BOOKING FORM`}</h1>
       ) : (
         <Spinner animation="border" role="status">
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       )}
       <h6></h6>
-      {type === "tour" ? (
+      {type === "tour" || type === undefined ? (
         <Form
           action="https://public.herotofu.com/v1/55bd0490-0983-11ed-be50-e78da9ee852d"
           method="post"
@@ -424,7 +427,7 @@ const Book = () => {
             </Button>
           </div>
         </Form>
-      ) : (
+      ) : type == "daytour" ? (
         <Form>
           <FloatingLabel className="mb-3" label="Name">
             <Form.Control
@@ -489,6 +492,8 @@ const Book = () => {
             </Button>
           </div>
         </Form>
+      ) : (
+        ""
       )}
     </Container>
   );

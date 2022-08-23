@@ -1428,7 +1428,7 @@ const treks = {
   //
   //
   //
-  naranag_gangbal_trek: {
+  naranag_gangabal_trek: {
     name: "NARANAG GANGBAL TREK",
     stay: "5N6D",
     category: "short",
