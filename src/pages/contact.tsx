@@ -7,10 +7,14 @@ import {
   Form,
   Row,
 } from "react-bootstrap";
-
+import Head from "next/head";
 const contact = () => {
   return (
     <Container>
+      <Head>
+        <title>Contact</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Row style={{ marginTop: "6rem" }}>
         <Col xs={12} md={6} className="p-3">
           <h2>Contact</h2>

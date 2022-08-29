@@ -10,7 +10,7 @@ import {
   Button,
   Spinner,
 } from "react-bootstrap";
-import Link from "next/link";
+
 const Treks = ({ holiday }) => {
   const router = useRouter();
   const trip = holiday.trek;

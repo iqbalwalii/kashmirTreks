@@ -9,6 +9,7 @@ import {
   Button,
   Spinner,
 } from "react-bootstrap";
+import Head from "next/head";
 import { useRouter } from "next/router";
 const Holidays = ({ holiday }) => {
   const router = useRouter();
@@ -24,6 +25,10 @@ const Holidays = ({ holiday }) => {
       className="d-flex justify-content-center align-items-center"
       style={{ height: "100vh" }}
     >
+      <Head>
+        <title>{destination}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Spinner animation="border" role="status">
         <span className="visually-hidden">Loading...</span>
       </Spinner>

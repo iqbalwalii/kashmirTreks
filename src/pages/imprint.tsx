@@ -1,9 +1,14 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import Head from "next/head";
 const imprint = () => {
   return (
     <Container>
+      <Head>
+        <title>Imprint</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <Row style={{ marginTop: "6rem" }}>
         <Col md={4} xs={10} className="cardCenter">
           <h5>Imprint</h5>

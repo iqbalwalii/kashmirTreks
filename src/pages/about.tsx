@@ -1,20 +1,24 @@
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import Head from "next/head";
 const about = () => {
   return (
     <Container>
+      <Head>
+        <title>About Us</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Row style={{ marginTop: "6rem" }}>
         <Col xs={12} md={8} className="p-3">
           <h1>About Us</h1>
           <p>
             Kashmir Ensueno is based in Srinagar, Kashmir. Owned and operated by
-            a group of trekkers who are born and raised in the valley of Kashmir.
-            “We would like others to feel the same joy that we do. We love being
-            trekkers so much that we made it our job. Let us help you get the
-            most from your trekking experiences. Let us help you arrange and
-            operate trekking expeditions that suit you the most”.
+            a group of trekkers who are born and raised in the valley of
+            Kashmir. “We would like others to feel the same joy that we do. We
+            love being trekkers so much that we made it our job. Let us help you
+            get the most from your trekking experiences. Let us help you arrange
+            and operate trekking expeditions that suit you the most”.
             <br />
             Kashmir Ensueno is a fun and easy way to travel around Kashmir in
             both style and comfort. Everything is arranged for you and

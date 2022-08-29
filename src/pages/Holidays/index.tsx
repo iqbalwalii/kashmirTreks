@@ -2,9 +2,14 @@ import Link from "next/link";
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Holidays } from "../../Types/index";
+import Head from "next/head";
 const index = () => {
   return (
     <Container>
+      <Head>
+        <title>Holidays</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Row className="mt-5">
         <Col
           className="mt-5"

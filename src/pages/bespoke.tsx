@@ -7,9 +7,14 @@ import {
   Form,
   Row,
 } from "react-bootstrap";
+import Head from "next/head";
 const bespoke = () => {
   return (
     <Container>
+      <Head>
+        <title>Bespoke</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Row style={{ marginTop: "6rem" }}>
         <Col md={6} xs={10} className="cardCenter pt-3">
           <h2>BESPOKE FULL SERVICE ITINERARY</h2>

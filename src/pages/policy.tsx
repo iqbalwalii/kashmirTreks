@@ -1,9 +1,14 @@
 import React from "react";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
+import Head from "next/head";
 
 const policy = () => {
   return (
     <Container style={{ marginTop: "6rem" }}>
+      <Head>
+        <title>Policies</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <h1>Tour Policies</h1>
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">

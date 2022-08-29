@@ -9,6 +9,7 @@ import {
   ButtonGroup,
   Spinner,
 } from "react-bootstrap";
+import Head from "next/head";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { Holidays, Treks } from "../Types/index";
@@ -20,6 +21,10 @@ const Book = () => {
 
   return (
     <Container style={{ marginTop: "6rem" }}>
+      <Head>
+        <title>Book</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       {type ? (
         <h1>{`${type.toUpperCase()} BOOKING FORM`}</h1>
       ) : type == undefined ? (

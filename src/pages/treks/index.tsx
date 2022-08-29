@@ -2,10 +2,15 @@ import Link from "next/link";
 import React from "react";
 import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import Card from "../../Components/Card";
+import Head from "next/head";
 const index = () => {
   return (
     <Container style={{ marginTop: "6rem" }}>
-      <h2>Kashmir Ensueno AND TRAILS</h2>
+      <Head>
+        <title>Treks</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <h2>Kashmir Ensueno AND Trails</h2>
       <p>
         Kashmir is the ideal trekking destination, with fascinating Himalayan
         landscapes and a sophisticated network of treks at varying altitudes and

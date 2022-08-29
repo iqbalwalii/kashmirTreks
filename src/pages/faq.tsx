@@ -1,9 +1,13 @@
 import React from "react";
 import { Accordion, Container, Row } from "react-bootstrap";
-
+import Head from "next/head";
 const Faq = () => {
   return (
     <Container>
+      <Head>
+        <title>FAQ</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Row style={{ marginTop: "6rem" }}>
         <h1 className="my-2 ">FAQ&apos;s</h1>
         <Accordion defaultActiveKey="0">
