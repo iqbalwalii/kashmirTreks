@@ -10,7 +10,8 @@ import {
   Button,
   Spinner,
 } from "react-bootstrap";
-
+import Head from "next/head";
+import Link from "next/link";
 const Treks = ({ holiday }) => {
   const router = useRouter();
   const trip = holiday.trek;
@@ -70,17 +71,21 @@ const Treks = ({ holiday }) => {
           {destination?.departure} <br />
           <h6 className="d-inline text-success"> Best Time:</h6>&nbsp;
           {destination?.best_time}
-          <div className="box my-4">
-            <h6>
-              <a
-                href={destination?.altitude_map}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Altitude Map
-              </a>
-            </h6>
-          </div>
+          {destination?.altitude_map ? (
+            <div className="box my-4">
+              <h6>
+                <a
+                  href={destination?.altitude_map}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Altitude Map
+                </a>
+              </h6>
+            </div>
+          ) : (
+            ""
+          )}
         </Col>
         <Col>
           <h6 className="d-inline text-success"> Duration:</h6>&nbsp;
