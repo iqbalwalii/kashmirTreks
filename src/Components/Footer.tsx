@@ -103,7 +103,9 @@ const Footer = () => {
       <Col xs={12} md={3} className="p-3">
         <h4 className="text-center">FOLLOW US</h4>
         <ul className="list-unstyled">
-          <li className="text-center">Instagram</li>
+          <li className="text-center">
+            <a href="https://instagram.com/ensuenotourandtravels">Instagram</a>
+          </li>
           <li className="text-center">Facebook</li>
           <li className="text-center">Twitter</li>
           <li className="text-center">Pinterest</li>

@@ -15,7 +15,7 @@ const CardView = (props) => {
   return (
     <div>
       {/* <Link href={props?.link}> */}
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem", cursor: "pointer" }}>
         <img
           src={props?.image}
           // width="200px"
