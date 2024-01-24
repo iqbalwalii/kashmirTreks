@@ -43,8 +43,8 @@ p {
   transition: transform 0.3s;
 }
 a {
-  text-decoration: none !important;
-  color: #000 !important;
+  text-decoration: none;
+  color: #000;
   transition: all 0.4s linear;
 }
 a:hover {

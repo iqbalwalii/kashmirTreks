@@ -1,13 +1,16 @@
-import styles from "../styles/Home.module.css";
+"use client";
+import React from "react";
 import Slider from "../Components/Carousel";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import Card from "../Components/Card";
 import Link from "next/link";
 import Sunday from "../Components/sunday";
+import Modal from "../Components/Modal";
 export default function Home() {
   return (
     <>
       <Slider />
+      <Modal />
       <Container>
         <Sunday />
         <div className="paragraph">

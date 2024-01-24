@@ -32,7 +32,6 @@ const Navigation = () => {
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/treks">Treks</Nav.Link>
-              <Nav.Link>Available for sale</Nav.Link>
 
               <NavDropdown title="Holidays" id="collasible-nav-dropdown">
                 {Object.keys(Holidays).map((key) => (
