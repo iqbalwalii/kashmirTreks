@@ -5,12 +5,20 @@ import "./Modal.module.css";
 const Modal = () => {
   const [show, setShow] = React.useState(true);
   const handleClose = () => setShow(false);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setShow((prevShow) => !prevShow);
+    }, 15000);
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <div>
       <ModalA show={show} onHide={handleClose}>
         <ModalA.Header closeButton>
           <ModalA.Title style={{ color: "red", textAlign: "center" }}>
-            AVAILABLE FOR SALE
+            WEBSITE AVAILABLE FOR SALE
           </ModalA.Title>
         </ModalA.Header>
         <ModalA.Body>
