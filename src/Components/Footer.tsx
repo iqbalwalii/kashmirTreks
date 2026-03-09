@@ -18,7 +18,12 @@ const Footer = () => {
             </a>
           </li>
           <li className="text-center">
-            <Image src="/assets/images/partners.png" width={150} height={100} />
+            <Image
+              src="/assets/images/partners.png"
+              width={150}
+              height={100}
+              alt="logo"
+            />
           </li>
         </ul>
       </Col>
