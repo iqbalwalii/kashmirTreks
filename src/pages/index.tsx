@@ -5,12 +5,10 @@ import { Button, Container } from "react-bootstrap";
 import Card from "../Components/Card";
 import Link from "next/link";
 import Sunday from "../Components/sunday";
-import Modal from "../Components/Modal";
 export default function Home() {
   return (
     <>
       <Slider />
-      <Modal />
       <Container>
         <Sunday />
         <div className="paragraph">

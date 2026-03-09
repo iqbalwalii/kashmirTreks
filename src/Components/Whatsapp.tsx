@@ -4,7 +4,7 @@ const Whatsapp = () => {
   return (
     <div className="whatsapp">
       <a
-        href="https://api.whatsapp.com/send?phone=916005702825&text=Hello%20KashmirEnsueno"
+        href="https://api.whatsapp.com/send?phone=7006030526&text=Hello%20MountEco"
         className="logo"
         target="_blank"
       >

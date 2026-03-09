@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: { domains: ["res.cloudinary.com, https://iqbalwali.vercel.app"] },
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      { protocol: "https", hostname: "iqbalwali.vercel.app" },
+    ],
+  },
 };
 
 module.exports = nextConfig;
