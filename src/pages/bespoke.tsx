@@ -19,10 +19,10 @@ const bespoke = () => {
         <Col md={6} xs={10} className="cardCenter pt-3">
           <h2>BESPOKE FULL SERVICE ITINERARY</h2>
           <p>
-            The foundation of Kashmir Ensueno is based on the bespoke travel
-            services in Kashmir. We create tailor-made luxury travel itineraries
-            to make you unleash your wildest adventure ambitions and the true
-            experience to visit Kashmir exactly what you expected and more.
+            The foundation of Mount Eco is based on the bespoke travel services
+            in Kashmir. We create tailor-made luxury travel itineraries to make
+            you unleash your wildest adventure ambitions and the true experience
+            to visit Kashmir exactly what you expected and more.
           </p>
           <p>
             We’ve been exploring the remote corners of this Himalayan country

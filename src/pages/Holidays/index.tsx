@@ -24,8 +24,8 @@ const index = () => {
             tourists who visit its historic cities and attractions. The
             magnificent scenery of Gulmarg, Pahalgam, Sonamarg, and Yousmarg
             attracts thousands of tourists every summer. In order to help and
-            guide, Kashmir Ensueno has designed some packages and also can
-            tailor-make your trip itinerary.
+            guide, Mount Eco has designed some packages and also can tailor-make
+            your trip itinerary.
           </p>
           <p>
             Kashmir is rich with history, beautiful places, traditions, and
@@ -34,8 +34,8 @@ const index = () => {
             tourists who visit its historic cities and attractions. The
             magnificent scenery of Gulmarg, Pahalgam, Sonamarg, and Yousmarg
             attracts thousands of tourists every summer. In order to help and
-            guide, Kashmir Ensueno has designed some packages and also can
-            tailor-make your trip itinerary.
+            guide, Mount Eco has designed some packages and also can tailor-make
+            your trip itinerary.
           </p>
         </Col>
         <Col className="mt-5" md={4} style={{ padding: "2rem" }}>

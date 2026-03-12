@@ -303,13 +303,13 @@ const Treks = ({ holiday }) => {
             <Col md={6} xs={10} className="cardCenter">
               <h3>FITNESS</h3>
               <p>
-                Kashmir Ensueno are achievable by anyone with a healthy
-                lifestyle and a good level of general fitness. Team members
-                should be willing to be part of a team working together to
-                achieve the goal of the expedition. As a team member, you should
-                have an adventurous and robust spirit. The biggest challenge on
-                this expedition is the first part of the trek across alpine
-                terrain, much of which at altitudes of above 3000m.
+                Mount Eco are achievable by anyone with a healthy lifestyle and
+                a good level of general fitness. Team members should be willing
+                to be part of a team working together to achieve the goal of the
+                expedition. As a team member, you should have an adventurous and
+                robust spirit. The biggest challenge on this expedition is the
+                first part of the trek across alpine terrain, much of which at
+                altitudes of above 3000m.
               </p>
             </Col>
             <Col md={6} xs={10} className="cardCenter">

@@ -29,7 +29,11 @@ const CardView = (props) => {
         </Card.Body>
         {props?.btn ? (
           <div className="d-grid">
-            <Button variant="warning" onClick={onClickHandler}>
+            <Button
+              variant="warning"
+              onClick={onClickHandler}
+              style={{ textDecoration: "none" }}
+            >
               Book Now
             </Button>
           </div>

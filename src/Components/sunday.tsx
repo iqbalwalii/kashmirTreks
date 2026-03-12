@@ -8,9 +8,7 @@ const Sunday = () => {
   const router = useRouter();
   return (
     <Row>
-      <h1 className="text-center qimm mt-4 mb-0 pb-0">
-        Kashmir Ensueno Sunday Trek
-      </h1>
+      <h1 className="text-center qimm mt-4 mb-0 pb-0">Mount Eco Sunday Trek</h1>
       <p className="subHeading text-center mb-4">
         A short trek to Make Your Day
       </p>

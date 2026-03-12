@@ -13,9 +13,7 @@ const Footer = () => {
           <li className="text-center">Kashmir, India-191201.</li>
           <li className="text-center"> +91 6005702825</li>
           <li className="text-center">
-            <a href="mailto:kashmirensueno@gmail.com">
-              kashmirensueno@gmail.com
-            </a>
+            <a href="mailto:queries@mounteco.in">queries@mounteco.in</a>
           </li>
           <li className="text-center">
             <Image

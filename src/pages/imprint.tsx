@@ -18,7 +18,7 @@ const imprint = () => {
               protection law is:
             </b>
             <br />
-            Kashmir Ensueno,
+            Mount Eco,
             <br /> Ganderbal, Jammu and Kashmir, <br />
             India-191201.
             <br />
@@ -38,10 +38,10 @@ const imprint = () => {
         <Col md={8} xs={10} className="cardCenter">
           <p>
             <b className="text-success mb-2">Use rights</b> <br /> The
-            copyrights of this web site are completely owned by Kashmir Ensueno.
-            The web pages and documents provided herein or their contents may
-            not be used in any form without the written permission of Kashmir
-            Treks, neither commercially nor non-commercially.
+            copyrights of this web site are completely owned by Mount Eco. The
+            web pages and documents provided herein or their contents may not be
+            used in any form without the written permission of Kashmir Treks,
+            neither commercially nor non-commercially.
             <br />
             <br />
             <b className="text-success mb-2">Liability notice</b> <br />

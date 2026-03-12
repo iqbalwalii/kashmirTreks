@@ -10,7 +10,7 @@ const index = () => {
         <title>Treks</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <h2>Kashmir Ensueno AND Trails</h2>
+      <h2>Mount Eco AND Trails</h2>
       <p>
         Kashmir is the ideal trekking destination, with fascinating Himalayan
         landscapes and a sophisticated network of treks at varying altitudes and

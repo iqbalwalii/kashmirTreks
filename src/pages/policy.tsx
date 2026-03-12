@@ -15,27 +15,26 @@ const policy = () => {
           <Accordion.Header>Privacy Policy</Accordion.Header>
           <Accordion.Body>
             <p>
-              Kashmir Ensueno respects your privacy and recognizes the need to
-              protect the personally identifiable information (any information
-              by which you can be identified, such as name, address, email, and
-              telephone number) you share with us. We would like to assure you
-              that we follow appropriate standards when it comes to protecting
-              your privacy on our web sites.
+              Mount Eco respects your privacy and recognizes the need to protect
+              the personally identifiable information (any information by which
+              you can be identified, such as name, address, email, and telephone
+              number) you share with us. We would like to assure you that we
+              follow appropriate standards when it comes to protecting your
+              privacy on our web sites.
               <br />
               <br />
-              We assure you that we at Kashmir Ensueno take all reasonable
-              measures to maintain your privacy and security regarding personal
-              information that you voluntarily divulge to us. We take this
-              seriously! During the course of communication and or tour
-              reservations, we collect information that you voluntarily disclose
-              to us, including but not limited to name, address, phone, and
-              email. This information may come to us from an associated third
-              party, such as a person who is the primary organizer or contact
-              person of a group, or from a travel agent. KT may choose to retain
-              such information in its database. We may utilize, within the
-              company, such information for our occasional mailings, email
-              notices, or even phone calls for the purposes of advancing the
-              program of KT.
+              We assure you that we at Mount Eco take all reasonable measures to
+              maintain your privacy and security regarding personal information
+              that you voluntarily divulge to us. We take this seriously! During
+              the course of communication and or tour reservations, we collect
+              information that you voluntarily disclose to us, including but not
+              limited to name, address, phone, and email. This information may
+              come to us from an associated third party, such as a person who is
+              the primary organizer or contact person of a group, or from a
+              travel agent. KT may choose to retain such information in its
+              database. We may utilize, within the company, such information for
+              our occasional mailings, email notices, or even phone calls for
+              the purposes of advancing the program of KT.
               <br />
               <br />
               However, we will not share or sell that information with any other
@@ -76,14 +75,14 @@ const policy = () => {
               For the purpose of the Information Technology Act, 2000, the
               (Indian) Contract Act, 1872 and ODR, the data controller Kashmir
               Treks is registered with the Department of Tourism, Government of
-              Jammu and Kashmir as Kashmir Ensueno.
+              Jammu and Kashmir as Mount Eco.
               <br />
               If our privacy policy changes in the future, it will be posted.
               You should access our privacy policy regularly to ensure you
               understand our current policies. Please reference the privacy
-              policy in your subject line. Kashmir Ensueno will attempt to
-              respond to all reasonable concerns or inquiries within seven
-              business days of receipt.
+              policy in your subject line. Mount Eco will attempt to respond to
+              all reasonable concerns or inquiries within seven business days of
+              receipt.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -103,8 +102,8 @@ const policy = () => {
             responsibility to check these Booking Terms and Conditions from time
             to time and be aware of any changes in effect before you travel.
             <br /> <br />
-            The terms “we”, “us”, “our”, and “Kashmir Ensueno” refer to Kashmir
-            Treks. The term “you” “I” “participant” or “customer” refers to the
+            The terms “we”, “us”, “our”, and “Mount Eco” refer to Kashmir Treks.
+            The term “you” “I” “participant” or “customer” refers to the
             customer booking a reservation through us. Reference to “Suppliers”
             and “Service Providers” means all third parties who provide services
             to you including airlines unless otherwise specified.
@@ -162,11 +161,11 @@ const policy = () => {
           <Accordion.Header>Reservations and Payments</Accordion.Header>
           <Accordion.Body>
             <p>
-              To register for a Kashmir Ensueno tour, submit a form
-              corresponding tour on our website. A 30% deposit of the tour will
-              be charged in order to hold your spot; payment can be made by
-              PayPal or bank-transfer. The balance of your payment is due 90
-              days prior to departure. All prices are in Indian Rupee (INR).
+              To register for a Mount Eco tour, submit a form corresponding tour
+              on our website. A 30% deposit of the tour will be charged in order
+              to hold your spot; payment can be made by PayPal or bank-transfer.
+              The balance of your payment is due 90 days prior to departure. All
+              prices are in Indian Rupee (INR).
               <br /> <br />
               Upon receipt of your deposit, you will receive a confirmation
               letter and an itinerary note to help you prepare for your trip.
@@ -195,14 +194,14 @@ const policy = () => {
           <Accordion.Header>Special Dietry Requirements</Accordion.Header>
           <Accordion.Body>
             <p>
-              Special diets should be requested on the Kashmir Ensueno booking
-              form; however, it may not be possible for special diets to be
-              catered to in some of the destinations we feature. For safety and
-              liability reasons, Kashmir Ensueno and its representatives cannot
-              be responsible for directly accommodating any food allergies, or
-              dietary requirements and restrictions, and is not responsible for
-              any issues or problems associated with the same. We will advise
-              the hotels and houseboats of your request but we cannot guarantee
+              Special diets should be requested on the Mount Eco booking form;
+              however, it may not be possible for special diets to be catered to
+              in some of the destinations we feature. For safety and liability
+              reasons, Mount Eco and its representatives cannot be responsible
+              for directly accommodating any food allergies, or dietary
+              requirements and restrictions, and is not responsible for any
+              issues or problems associated with the same. We will advise the
+              hotels and houseboats of your request but we cannot guarantee
               their availability.
             </p>
           </Accordion.Body>
@@ -257,11 +256,11 @@ const policy = () => {
               time prior to departure. In this case, refund of any payments
               received constitutes full settlement. This will not apply in the
               case of Force Majeure. There is no refund for travelers arriving
-              late or unexpectedly leaving a trip. Kashmir Ensueno does not
-              recommend the purchase of nonrefundable airline tickets.
+              late or unexpectedly leaving a trip. Mount Eco does not recommend
+              the purchase of nonrefundable airline tickets.
               <br /> <br />
               All requests for refunds must be submitted in writing as soon as
-              possible to Kashmir Ensueno, please e-mail us at
+              possible to Mount Eco, please e-mail us at
               kashmirensueno@gmail.com
               <br /> <br />
               The cancellation charges are as under: Cancellations prior to 90
@@ -284,7 +283,7 @@ const policy = () => {
             <p>
               We will gladly answer questions to help you select a tour or
               provide you with names of past participants who will candidly
-              describe their experience with Kashmir Ensueno. However, you are
+              describe their experience with Mount Eco. However, you are
               responsible for selecting a trip appropriate to your physical
               abilities and interests, carefully reading all of the detailed
               pre-departure information before traveling, and being in
@@ -295,11 +294,11 @@ const policy = () => {
               (reasonably estimated if not precisely known) must be paid direct
               at the time to the accommodation owner or manager or other
               supplier. You must indemnify us for the full amount of any claim
-              (also including legal costs) made against us. Kashmir Ensueno is
-              not responsible for any costs incurred concerning a guest removed
-              from a vacation/holiday. Guests agree not to hold Kashmir Ensueno
-              or any of its related entities liable for any actions taken under
-              these terms and conditions.
+              (also including legal costs) made against us. Mount Eco is not
+              responsible for any costs incurred concerning a guest removed from
+              a vacation/holiday. Guests agree not to hold Mount Eco or any of
+              its related entities liable for any actions taken under these
+              terms and conditions.
               <br /> <br />
               KT’s trek itineraries have been designed to provide participants
               with an exposure to the true nature of the environment visited and
@@ -318,7 +317,7 @@ const policy = () => {
             <p>
               Children under eight years old must be at all times accompanied by
               a parent. Parents are responsible for bringing all the required
-              amenities, which are not provided by Kashmir Ensueno.
+              amenities, which are not provided by Mount Eco.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -328,7 +327,7 @@ const policy = () => {
             <p>
               Traveling in a group invariably involves compromise to accommodate
               the diverse interests, travel goals, personalities, and physical
-              abilities of all participants. Kashmir Ensueno tour leaders may be
+              abilities of all participants. Mount Eco tour leaders may be
               required to improvise and exercise good faith, use discretion,
               and/or make decisions based upon group consensus. These decisions
               may not always please each individual, but they are intended to
@@ -365,17 +364,17 @@ const policy = () => {
           <Accordion.Header>Force Majeure</Accordion.Header>
           <Accordion.Body>
             <p>
-              Kashmir Ensueno shall not be responsible for, and shall make no
-              refund for, events beyond its control, such as, without
-              limitation, acts of God, strikes, acts of war, terrorism or civil
-              disturbance, government restrictions, curfews, changes of
-              schedules or operational decisions of air carriers, terrorist
-              activity or the threat thereof, industrial action, natural or
-              nuclear activity, epidemic, pandemic, illness, physical injury,
-              quarantine, medical or customs or immigration regulation, delay,
-              or cancellation, adverse weather conditions, fire, or for acts or
-              omission of Third Parties or other parties not under the control
-              of Kashmir Ensueno and all similar events outside our control.
+              Mount Eco shall not be responsible for, and shall make no refund
+              for, events beyond its control, such as, without limitation, acts
+              of God, strikes, acts of war, terrorism or civil disturbance,
+              government restrictions, curfews, changes of schedules or
+              operational decisions of air carriers, terrorist activity or the
+              threat thereof, industrial action, natural or nuclear activity,
+              epidemic, pandemic, illness, physical injury, quarantine, medical
+              or customs or immigration regulation, delay, or cancellation,
+              adverse weather conditions, fire, or for acts or omission of Third
+              Parties or other parties not under the control of Mount Eco and
+              all similar events outside our control.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -383,38 +382,37 @@ const policy = () => {
           <Accordion.Header>Non Responsibility</Accordion.Header>
           <Accordion.Body>
             <p>
-              Kashmir Ensueno, and its employees, shareholders, agents, and
+              Mount Eco, and its employees, shareholders, agents, and
               representatives use third party suppliers to arrange tours,
               transportation, sightseeing, lodging, and all other services
-              related to this tour. Kashmir Ensueno is an independent contractor
-              and is not an employee, agent, or representative of any of these
-              suppliers. Kashmir Ensueno does not own, manage, operate,
-              supervise, or control any transportation, vehicle, airplane, hotel
-              or restaurants, or any other entity that supplies services related
-              to your tour. Kashmir Ensueno is not affiliated with any other
-              tour operator. All suppliers are independent contractors, and are
-              not agents or employees or representatives of Kashmir Ensueno. All
-              tickets, receipts, coupons, and vouchers are issued subject to the
-              terms and conditions specified by each supplier, and by accepting
-              the coupons, vouchers, and tickets, or utilizing the services, all
-              customers agree that neither Kashmir Ensueno, nor its employees,
-              agents, or representatives are or may be liable for any loss,
-              injury, or damage to any tour participant or their belongings, or
-              otherwise, in connection with any service supplied or not supplied
-              resulting directly or indirectly from any occurrence beyond the
-              control of Kashmir Ensueno. Kashmir Ensueno assumes no
-              responsibility or liability for any delay, change in schedule,
-              loss, injury or damage or loss of any participant that may result
-              from any act or omission on the part of others; and Kashmir
-              Ensueno shall be relieved of any obligations under these terms and
-              conditions in the event of any strike, labor dispute, act of God,
-              or of government, fire, war, whether declared or not, terrorism,
-              insurrection, riot, theft, pilferage, epidemic/pandemic, illness,
-              physical injury, quarantine, medical or customs or immigration
-              regulation, delay, or cancellation. Kashmir Ensueno accepts no
-              responsibility for lost or stolen items. Kashmir Ensueno reserves
-              the right to refuse any participant or potential participant at
-              its sole discretion.
+              related to this tour. Mount Eco is an independent contractor and
+              is not an employee, agent, or representative of any of these
+              suppliers. Mount Eco does not own, manage, operate, supervise, or
+              control any transportation, vehicle, airplane, hotel or
+              restaurants, or any other entity that supplies services related to
+              your tour. Mount Eco is not affiliated with any other tour
+              operator. All suppliers are independent contractors, and are not
+              agents or employees or representatives of Mount Eco. All tickets,
+              receipts, coupons, and vouchers are issued subject to the terms
+              and conditions specified by each supplier, and by accepting the
+              coupons, vouchers, and tickets, or utilizing the services, all
+              customers agree that neither Mount Eco, nor its employees, agents,
+              or representatives are or may be liable for any loss, injury, or
+              damage to any tour participant or their belongings, or otherwise,
+              in connection with any service supplied or not supplied resulting
+              directly or indirectly from any occurrence beyond the control of
+              Mount Eco. Mount Eco assumes no responsibility or liability for
+              any delay, change in schedule, loss, injury or damage or loss of
+              any participant that may result from any act or omission on the
+              part of others; and Kashmir Ensueno shall be relieved of any
+              obligations under these terms and conditions in the event of any
+              strike, labor dispute, act of God, or of government, fire, war,
+              whether declared or not, terrorism, insurrection, riot, theft,
+              pilferage, epidemic/pandemic, illness, physical injury,
+              quarantine, medical or customs or immigration regulation, delay,
+              or cancellation. Mount Eco accepts no responsibility for lost or
+              stolen items. Mount Eco reserves the right to refuse any
+              participant or potential participant at its sole discretion.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -433,28 +431,27 @@ const policy = () => {
               participating in these activities with the knowledge that there
               are significant dangers involved, and you hereby agree to accept
               any and all risks. As lawful consideration for the agreement with
-              Kashmir Ensueno to participate in such trips and activities you
-              agree you will not make a claim against Kashmir Ensueno, its
-              related companies or its personnel or sue for bodily injury,
-              emotional trauma, death, property loss or damage or other loss,
-              cost or expense, however caused, as a result of or related to your
-              contracting for, traveling to or from, or in any and every other
-              way participating in the trip. You release Kashmir Ensueno, its
-              related companies and its personnel from any and all claims, known
-              or unknown, arising from contracting for, traveling to or from,
-              and in any and every way participating in a trip. This release of
-              liability and assumption of risk agreement is entered into on
-              behalf of you and all members of your family and party, also
-              including minors. This agreement also binds your heirs, legal
-              representatives and assigns.
+              Mount Eco to participate in such trips and activities you agree
+              you will not make a claim against Mount Eco, its related companies
+              or its personnel or sue for bodily injury, emotional trauma,
+              death, property loss or damage or other loss, cost or expense,
+              however caused, as a result of or related to your contracting for,
+              traveling to or from, or in any and every other way participating
+              in the trip. You release Mount Eco, its related companies and its
+              personnel from any and all claims, known or unknown, arising from
+              contracting for, traveling to or from, and in any and every way
+              participating in a trip. This release of liability and assumption
+              of risk agreement is entered into on behalf of you and all members
+              of your family and party, also including minors. This agreement
+              also binds your heirs, legal representatives and assigns.
               <br /> <br />
               Where the guest occupies a motor coach or other vehicle seat
-              fitted with a safety belt, neither Kashmir Ensueno nor the
-              Operator nor its agents or co-operating organizations or service
-              providers will be liable for any injury, illness or death or for
-              any loss or damages or claims whatsoever arising from any accident
-              or incident, if the safety belt is not being worn at the time of
-              such an accident or incident. This exclusion and limitation of
+              fitted with a safety belt, neither Mount Eco nor the Operator nor
+              its agents or co-operating organizations or service providers will
+              be liable for any injury, illness or death or for any loss or
+              damages or claims whatsoever arising from any accident or
+              incident, if the safety belt is not being worn at the time of such
+              an accident or incident. This exclusion and limitation of
               liability shall not be used to imply that the Operator or its
               agents or affiliated entities are liable in other circumstances.
             </p>
@@ -476,14 +473,13 @@ const policy = () => {
           <Accordion.Header>Service Responsibility</Accordion.Header>
           <Accordion.Body>
             <p>
-              Kashmir Ensueno will not assume responsibility for any overseas
-              company or person who fails to provide services that have been
-              contracted for any of its tours. (In the case of such an event,
-              alternative services will be sought.) In rare instances, we may
-              ask a traveler to switch to another trip from one that has
-              logistical problems or too few participants; in such cases, we
-              will attempt to notify you at least 60 days before the departure
-              date.
+              Mount Eco will not assume responsibility for any overseas company
+              or person who fails to provide services that have been contracted
+              for any of its tours. (In the case of such an event, alternative
+              services will be sought.) In rare instances, we may ask a traveler
+              to switch to another trip from one that has logistical problems or
+              too few participants; in such cases, we will attempt to notify you
+              at least 60 days before the departure date.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -524,11 +520,11 @@ const policy = () => {
           <Accordion.Header>Kahmir Ensueno</Accordion.Header>
           <Accordion.Body>
             <p>
-              At all times your contract will be with Kashmir Ensueno. The name
-              Kashmir Ensueno is (licensed with Kashmir Tourism Department as
-              KASHMIR ENSUENO). <br /> <br />
+              At all times your contract will be with Mount Eco. The name Mount
+              Eco is (licensed with Kashmir Tourism Department as Mount Eco).{" "}
+              <br /> <br />
               All website content including photographs are the exclusive
-              property of Kashmir Ensueno and is a Kashmir Ensueno copyright.
+              property of Mount Eco and is a Mount Eco copyright.
             </p>
           </Accordion.Body>
         </Accordion.Item>

@@ -12,14 +12,14 @@ export default function Home() {
       <Container>
         <Sunday />
         <div className="paragraph">
-          <h2 className="text-center mt-5 heading">Kashmir Ensueno</h2>
+          <h2 className="text-center mt-5 heading">Mount Eco</h2>
           <p className="text-center subheading">Adventure comes alive!</p>
           <p
             className="text-center description"
             // style={{ fontFamily: "Caveat, cursive", fontSize: "1.5rem" }}
           >
-            Kashmir Ensueno is an expedition and adventure travel company. We
-            offer guided hiking, trekking tours and mountain adventures in the
+            Mount Eco is an expedition and adventure travel company. We offer
+            guided hiking, trekking tours and mountain adventures in the
             Himalayas of Kashmir. We specialize in selected classic treks and
             climbs, such as the Great Lakes Trek, the Mount Harmukh Climb,
             Kolahoi Glacier Trek, Stok-Kangri Climb, and the Zanskar Valley
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <div className="d-flex justify-content-center">
           <Link href="/treks">
-            <Button style={{ background: "#004220" }}>
+            <Button style={{ background: "#004220", color: "#fff" }}>
               Browse All Destinations
             </Button>
           </Link>
@@ -143,7 +143,7 @@ export default function Home() {
         </div>
         <div className="d-flex justify-content-center mb-5">
           <Link href="/treks">
-            <Button style={{ background: "#004220" }}>
+            <Button style={{ background: "#004220", color: "#fff" }}>
               Browse All Destinations
             </Button>
           </Link>

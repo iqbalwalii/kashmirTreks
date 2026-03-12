@@ -16,15 +16,15 @@ const Navigation = () => {
         <Container>
           <Navbar.Brand href="/" className="d-flex align-items-center">
             <Image
-              src="/assets/images/logo.svg"
+              src="/assets/images/logo.png"
               width={60}
               height={60}
               alt="logo"
             />
             <span style={{ color: "#5B3511", marginLeft: "1rem" }}>
-              Kashmir
+              Mount Eco
             </span>{" "}
-            <span style={{ color: "#004220" }}>Ensueno</span>
+            {/* <span style={{ color: "#004220" }}>Tour And Travels</span> */}
           </Navbar.Brand>
 
           <Navbar.Toggle />
