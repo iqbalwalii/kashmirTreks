@@ -43,41 +43,25 @@ export default function Home() {
               </Link>
             </div>
             <div className="mb-4">
-              <Link href="/treks/tulail_gangabal_naranag_trek">
+              <Link href="/holidays/kashmir_package">
                 <div>
                   <Card
-                    name={"Tulail - Gangbal - Naranag Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322099/3da497d1-d051-408e-be5b-d2e59d94e271_Kashmir_Great_Lakes_KGL_RAJARSHI_MANNA_-_UNDER_THE_SAME_SKY_d5dbph.webp"
-                    }
-                    link={"treks/tulail_gangbal_naranag_trek"}
-                    type={"trek"}
-                  />
-                </div>
-              </Link>
-            </div>
-            <div className="mb-4">
-              <Link href="/treks/kolahoi_glacier_trek">
-                <div>
-                  <Card
-                    name={"Mount Kolohai Full Glacier Trek"}
+                    name={"The Kashmir Package"}
                     image={
                       "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322194/Kolahoi-Glacier-Trek_qsralh.webp"
                     }
-                    type={"trek"}
+                    type={"Holiday"}
                   />
                 </div>
               </Link>
             </div>
             <div className="mb-4">
-              <Link href="/treks/srinagar_warwan_panikhar_trek">
+              <Link href="/treks/kashmir_tulip_garden">
                 <div>
                   <Card
-                    name={"Srinagar Warwan Valley Panikhar Trek"}
-                    image={
-                      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658322295/9f9c89a8-e9f4-44a9-aca5-5baba75b42d2_Warwan_Valley_-_Subro_-_Village_-_Compressed_wyzdbp.webp"
-                    }
-                    type={"trek"}
+                    name={"Kashmir Tulip Garden"}
+                    image={"/assets/images/tulips2.jpg"}
+                    type={"holiday"}
                   />
                 </div>
               </Link>

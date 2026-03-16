@@ -43,7 +43,7 @@ export default function TreksPage() {
               {
                 href: "holidays/kashmir_tulip_garden",
                 name: "Kashmir Tulip Garden",
-                image: "/assets/images/tulips.webp",
+                image: "/assets/images/tulips2.jpg",
               },
               {
                 href: "holidays/srinagar_leh_nubra_tour",
