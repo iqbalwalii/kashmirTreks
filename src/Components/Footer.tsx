@@ -6,6 +6,7 @@ import styles from "../styles/Footer.module.css";
 import Link from "next/link";
 const Footer = () => {
   return (
+    <>
     <Row className={styles.main}>
       <Col xs={12} md={3} className="p-3">
         <h4 className="text-center">ADDRESS INFO</h4>
@@ -115,6 +116,36 @@ const Footer = () => {
         </ul>
       </Col>
     </Row>
+    <div
+      style={{
+        background: "#060f07",
+        borderTop: "1px solid #1a3a20",
+        padding: "0.6rem 1rem",
+        textAlign: "center",
+        fontSize: "0.78rem",
+        color: "#5a8a6a",
+        letterSpacing: "0.03em",
+      }}
+    >
+      Designed &amp; built by{" "}
+      <a
+        href="https://dropoutdevs.in"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          color: "#e8a020",
+          fontWeight: 600,
+          textDecoration: "none",
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.3rem",
+        }}
+      >
+        <Image src="/assets/images/dropout.svg" alt="dropoutdevs" width={16} height={16} style={{ display: "inline", verticalAlign: "middle" }} />
+        dropoutdevs
+      </a>
+    </div>
+    </>
   );
 };
 

@@ -7,6 +7,19 @@ import { useRouter } from "next/navigation";
 
 const Sunday = () => {
   const router = useRouter();
+  const [buttonText, setButtonText] = React.useState("Book Your Slot");
+  const [isTempDisabled, setIsTempDisabled] = React.useState(false);
+  const handleSundayTrekClick = () => {
+    if (isTempDisabled) return;
+
+    setButtonText("Comming Soon.. Stay Tuned");
+    setIsTempDisabled(true);
+
+    setTimeout(() => {
+      setButtonText("Book Your Slot");
+      setIsTempDisabled(false);
+    }, 5000);
+  };
   return (
     <Row>
       <h1 className="text-center qimm mt-4 mb-0 pb-0">Mount Eco Sunday Trek</h1>
@@ -30,9 +43,10 @@ const Sunday = () => {
               <div className="d-flex justify-content-center">
                 <Button
                   className="btn-gold-custom"
-                  onClick={() => router.push("/book?name=daytour")}
+                  onClick={handleSundayTrekClick}
+                  disabled={isTempDisabled}
                 >
-                  Book Your Slot
+                  {buttonText}
                 </Button>
               </div>
             </div>
@@ -54,6 +68,7 @@ const Sunday = () => {
               <div className="d-flex justify-content-center">
                 <Button
                   className="btn-gold-custom"
+                  disabled
                   onClick={() => router.push("/book?name=daytour")}
                 >
                   Book Your Slot

@@ -2,7 +2,7 @@ const sunday = {
   title: "Sunday Trek",
   name: "Kounsarnag Lake Trek",
   type: "meadow", // "trek", "meadow", "valley", "Alpine Lake", "camp", "hike", "nature", "wildlife", "waterfall", "scenic", "other"
-  description: "Bookings Open",
+  description: "Bookings Opening Soon",
   drive: "4 hours (ROund Trip)",
   distance: "2.5 km",
   image1:

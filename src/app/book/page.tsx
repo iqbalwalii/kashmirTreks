@@ -1,5 +1,5 @@
 "use client";
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import {
   Container,
   Row,
@@ -11,10 +11,14 @@ import {
 } from "react-bootstrap";
 import { useSearchParams } from "next/navigation";
 import { Holidays, Treks } from "../../Types/index";
+import holidaysData from "../../data/holidays";
+import treksData from "../../data/treks";
 
 function BookContent() {
   const searchParams = useSearchParams();
   const type = searchParams.get("name");
+  const [selectedHolidayKey, setSelectedHolidayKey] = useState("");
+  const [selectedTrekKey, setSelectedTrekKey] = useState("");
 
   return (
     <Container style={{ marginTop: "6rem" }}>
@@ -24,24 +28,29 @@ function BookContent() {
         <h1>Tour BOOKING FORM</h1>
       )}
       {(type === "tour" || type === null) && (
-        <Form
-          action="https://public.herotofu.com/v1/55bd0490-0983-11ed-be50-e78da9ee852d"
-          method="post"
-        >
+        <Form action="https://api.web3forms.com/submit" method="post">
           <p className="text-danger">Tour Details (*)</p>
           <div className="d-flex justify-content-around mb-3">
+            <input
+              type="hidden"
+              name="access_key"
+              value="19b0b0b8-10fc-4187-87d0-9075ae1f9440"
+            ></input>
             <Form.Select
               aria-label="Select Tour"
               style={{ marginRight: "2rem" }}
               name="tour"
               id="tour"
-              defaultValue=""
+              value={selectedHolidayKey}
+              onChange={(e) => setSelectedHolidayKey(e.target.value)}
             >
               <option value="" disabled>
                 Select Tour
               </option>
-              {Object.keys(Holidays).map((key, idx) => (
-                <option key={idx}>{Holidays[key]}</option>
+              {Object.keys(Holidays).map((key) => (
+                <option key={key} value={key}>
+                  {Holidays[key as keyof typeof Holidays]}
+                </option>
               ))}
             </Form.Select>
             <Form.Select
@@ -49,12 +58,20 @@ function BookContent() {
               name="plan"
               id="plan"
               defaultValue=""
+              disabled={!selectedHolidayKey}
             >
               <option value="" disabled>
-                Select Plan
+                {selectedHolidayKey ? "Select Plan" : "Select a tour first"}
               </option>
-              <option>Standard</option>
-              <option>Deluxe</option>
+              {selectedHolidayKey &&
+                (
+                  holidaysData[selectedHolidayKey as keyof typeof holidaysData]
+                    ?.plans ?? []
+                ).map((plan, idx) => (
+                  <option key={idx} value={plan.name}>
+                    {plan.name} — ₹{plan.rate.toLocaleString("en-IN")}
+                  </option>
+                ))}
             </Form.Select>
           </div>
           <p className="text-danger">Personal Details (*)</p>
@@ -108,7 +125,11 @@ function BookContent() {
                 required
               />
             </FloatingLabel>
-            <FloatingLabel className="ml-2" controlId="Nationality" label="Nationality">
+            <FloatingLabel
+              className="ml-2"
+              controlId="Nationality"
+              label="Nationality"
+            >
               <Form.Control
                 type="text"
                 name="Nationality"
@@ -165,7 +186,11 @@ function BookContent() {
               </FloatingLabel>
             </Col>
             <Col xs={12} md={6}>
-              <FloatingLabel className="mb-2" controlId="departurePlace" label="Place of Departure">
+              <FloatingLabel
+                className="mb-2"
+                controlId="departurePlace"
+                label="Place of Departure"
+              >
                 <Form.Control
                   type="text"
                   name="departurePlace"
@@ -174,7 +199,11 @@ function BookContent() {
               </FloatingLabel>
             </Col>
           </Row>
-          <FloatingLabel className="mb-2" controlId="groupSize" label="Group Size">
+          <FloatingLabel
+            className="mb-2"
+            controlId="groupSize"
+            label="Group Size"
+          >
             <Form.Control
               type="text"
               name="groupSize"
@@ -202,24 +231,29 @@ function BookContent() {
         </Form>
       )}
       {type === "trek" && (
-        <Form
-          action="https://public.herotofu.com/v1/55bd0490-0983-11ed-be50-e78da9ee852d"
-          method="post"
-        >
+        <Form action="https://api.web3forms.com/submit" method="post">
           <p className="text-danger">Trek Details (*)</p>
           <div className="d-flex justify-content-around mb-3">
+            <input
+              type="hidden"
+              name="access_key"
+              value="19b0b0b8-10fc-4187-87d0-9075ae1f9440"
+            ></input>
             <Form.Select
               aria-label="Select Trek"
               style={{ marginRight: "2rem" }}
               name="trek"
               id="trek"
-              defaultValue=""
+              value={selectedTrekKey}
+              onChange={(e) => setSelectedTrekKey(e.target.value)}
             >
               <option value="" disabled>
                 Select Trek
               </option>
-              {Object.keys(Treks).map((key, idx) => (
-                <option key={idx}>{Treks[key]}</option>
+              {Object.keys(Treks).map((key) => (
+                <option key={key} value={key}>
+                  {Treks[key as keyof typeof Treks]}
+                </option>
               ))}
             </Form.Select>
             <Form.Select
@@ -227,12 +261,20 @@ function BookContent() {
               name="plan"
               id="plan"
               defaultValue=""
+              disabled={!selectedTrekKey}
             >
               <option value="" disabled>
-                Select Plan
+                {selectedTrekKey ? "Select Plan" : "Select a trek first"}
               </option>
-              <option>Standard</option>
-              <option>Deluxe</option>
+              {selectedTrekKey &&
+                (
+                  treksData[selectedTrekKey as keyof typeof treksData]?.plans ??
+                  []
+                ).map((plan, idx) => (
+                  <option key={idx} value={plan.name}>
+                    {plan.name} — ₹{plan.rate.toLocaleString("en-IN")}
+                  </option>
+                ))}
             </Form.Select>
           </div>
           <p className="text-danger">Personal Details (*)</p>
@@ -286,7 +328,11 @@ function BookContent() {
                 required
               />
             </FloatingLabel>
-            <FloatingLabel className="ml-2" controlId="Nationality" label="Nationality">
+            <FloatingLabel
+              className="ml-2"
+              controlId="Nationality"
+              label="Nationality"
+            >
               <Form.Control
                 type="text"
                 name="Nationality"
@@ -343,7 +389,11 @@ function BookContent() {
               </FloatingLabel>
             </Col>
             <Col xs={12} md={6}>
-              <FloatingLabel className="mb-2" controlId="departurePlace" label="Place of Departure">
+              <FloatingLabel
+                className="mb-2"
+                controlId="departurePlace"
+                label="Place of Departure"
+              >
                 <Form.Control
                   type="text"
                   name="departurePlace"
@@ -352,7 +402,11 @@ function BookContent() {
               </FloatingLabel>
             </Col>
           </Row>
-          <FloatingLabel className="mb-2" controlId="groupSize" label="Group Size">
+          <FloatingLabel
+            className="mb-2"
+            controlId="groupSize"
+            label="Group Size"
+          >
             <Form.Control
               type="text"
               name="groupSize"
@@ -402,7 +456,11 @@ function BookContent() {
               </Form.Select>
             </Col>
           </Row>
-          <FloatingLabel controlId="comments" label="Additional Comments" className="mt-3">
+          <FloatingLabel
+            controlId="comments"
+            label="Additional Comments"
+            className="mt-3"
+          >
             <Form.Control
               as="textarea"
               placeholder="Additional Comments"
@@ -435,7 +493,11 @@ function BookContent() {
               required
             />
           </FloatingLabel>
-          <FloatingLabel className="mb-3" controlId="phoneNumber" label="Phone Number">
+          <FloatingLabel
+            className="mb-3"
+            controlId="phoneNumber"
+            label="Phone Number"
+          >
             <Form.Control
               type="text"
               name="phoneNumber"
@@ -468,7 +530,7 @@ function BookContent() {
             required
           />
           <div className="d-grid">
-            <Button className="my-3 btn-accent-custom" type="submit">
+            <Button className="my-3 btn-accent-custom" type="submit" disabled>
               Submit
             </Button>
           </div>
