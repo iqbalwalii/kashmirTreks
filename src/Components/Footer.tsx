@@ -77,10 +77,15 @@ const Footer = () => {
       <Col xs={12} md={3} className="` p-3">
         <h4 className="text-center">GET IN TOUCH</h4>
         <Form
-          action="https://public.herotofu.com/v1/feb7c820-084b-11ed-be50-e78da9ee852d"
+          action="https://api.web3forms.com/submit"
           method="post"
           className="d-flex flex-column align-items-center"
         >
+          <input
+            type="hidden"
+            name="access_key"
+            value="5907f1cf-42bb-4c84-bc3a-c9f1a150daba"
+          ></input>
           <Form.Group controlId="formBasicEmail">
             <Form.Control type="email" placeholder="Enter email" name="email" />
           </Form.Group>
