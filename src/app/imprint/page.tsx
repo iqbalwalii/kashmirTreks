@@ -1,14 +1,10 @@
+"use client";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Head from "next/head";
-const imprint = () => {
+
+export default function ImprintPage() {
   return (
     <Container>
-      <Head>
-        <title>Imprint</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-
       <Row style={{ marginTop: "6rem" }}>
         <Col md={4} xs={10} className="cardCenter">
           <h5>Imprint</h5>
@@ -47,25 +43,15 @@ const imprint = () => {
             <b className="text-success mb-2">Liability notice</b> <br />
             Despite careful content control, we assume no liability for the
             content of external links. The content of the linked pages is the
-            sole responsibility of their operators. We make every effort to keep
-            our website up-to-date, accurate, and complete. Nevertheless, the
-            occurrence of errors can not be completely ruled out. We assume no
-            liability for the timeliness, accuracy, or completeness of the
-            content posted here. This also applies to any damage of a material
-            or immaterial nature caused by the use of this website or its
-            contents. <br /> <br />
+            sole responsibility of their operators.
+            <br /> <br />
             <b className="text-success mb-2">
-              Alternative dispute resolution according to the Information
-              Technology Act, 2000 and EC
+              Alternative dispute resolution
             </b>{" "}
             <br /> The IT Act and the EC provides a platform for online dispute
             resolution (ODR). We are not obligated and unwilling to participate
             in a dispute settlement procedure before a consumer arbitration
-            board. Legal notice regarding our presence This imprint and the data
-            protection declaration are valid for the following website,
-            accessible at the following URL: kashmirtreks.com <br />
-            This imprint is also valid for our appearance on Facebook,
-            Instagram, and Twitter pages:
+            board. Legal notice regarding our presence: kashmirtreks.com
           </p>
           <ul>
             <li>facebook.com/kashmirtreks</li>
@@ -76,6 +62,4 @@ const imprint = () => {
       </Row>
     </Container>
   );
-};
-
-export default imprint;
+}

@@ -1,4 +1,263 @@
 const holidays = {
+  kashmir_tulip_package: {
+    name: "Kashmir Tulip Package",
+    stay: "Houseboat (1N) → Srinagar Hotel (3N)",
+    alternate: "Jammu & Kashmir Tulip Package (4N5D)",
+    image:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1656835689/13_0012256_033078_emgfuf.jpg",
+    introduction: [
+      "Tulip package for Tourists with 4 nights and 5 days duration.",
+      "Night stay includes 1 night in a houseboat and 3 nights in a Srinagar hotel.",
+    ],
+    sightseeings: [
+      "Srinagar",
+      "Pahalgam",
+      "Gulmarg",
+      "Sonmarg",
+      "Tulip Garden",
+      "Drung Waterfall",
+    ],
+    inclusions: [
+      "04 Night accommodations",
+      "04 Breakfasts & 04 Dinners",
+      "Pick-up & Drop from Srinagar",
+      "Gondola Phase 1 cable car ticket",
+      "Pahalgam union vehicle ABC included",
+      "Gulmarg union vehicle included",
+      "Drung Waterfall vehicle included",
+      "Tulip Garden ticket included",
+      "All transfers & sightseeing by private vehicle",
+      "All toll taxes, parking & driver allowances included",
+    ],
+    exclusions: [
+      "International or domestic flights",
+      "Visa",
+      "Travel Insurance",
+      "Any monument entrance fees, camera fees, guide charges",
+      "Tips and Porterage",
+      "Any other services not mentioned in the inclusion list",
+    ],
+    itinerary: [
+      {
+        name: "Day 1 - Srinagar",
+        description: "Arrival and houseboat stay",
+        items: ["Srinagar", "Houseboat"],
+      },
+      {
+        name: "Day 2 - Pahalgam Excursion",
+        description: "Day trip from Srinagar",
+        items: ["Srinagar", "Pahalgam", "Return to Srinagar"],
+      },
+      {
+        name: "Day 3 - Gulmarg Excursion",
+        description: "Day trip from Srinagar",
+        items: ["Srinagar", "Gulmarg", "Return to Srinagar"],
+      },
+      {
+        name: "Day 4 - Sonmarg Excursion",
+        description: "Day trip from Srinagar",
+        items: ["Srinagar", "Sonmarg", "Return to Srinagar"],
+      },
+      {
+        name: "Day 5 - Departure",
+        description: "Airport drop",
+        items: ["Srinagar Airport Drop"],
+      },
+    ],
+    detailedItinerary: [
+      "Day 1 - Srinagar with houseboat stay.",
+      "Day 2 - Srinagar to Pahalgam and back to Srinagar.",
+      "Day 3 - Srinagar to Gulmarg and back to Srinagar.",
+      "Day 4 - Srinagar to Sonmarg and back to Srinagar.",
+      "Day 5 - Srinagar airport drop.",
+    ],
+    plans: [
+      {
+        name: "Hotel 3 Star - 6 Pax",
+        rate: 18999,
+        highlights: ["Per person pricing"],
+      },
+      {
+        name: "Hotel 3 Star - 4 Pax",
+        rate: 21399,
+        highlights: ["Per person pricing"],
+      },
+      {
+        name: "Hotel 3 Star - 2 Pax",
+        rate: 23999,
+        highlights: ["Per person pricing"],
+      },
+      {
+        name: "Hotel 4 Star - 6 Pax",
+        rate: 22900,
+        highlights: ["Per person pricing"],
+      },
+      {
+        name: "Hotel 4 Star - 4 Pax",
+        rate: 24600,
+        highlights: ["Per person pricing"],
+      },
+      {
+        name: "Hotel 4 Star - 2 Pax",
+        rate: 27900,
+        highlights: ["Per person pricing"],
+      },
+    ],
+  },
+  kashmir_package: {
+    name: "Kashmir",
+    stay: "Houseboat (1N) → Pahalgam (1N) → Srinagar (3N)",
+    alternate: "Kashmir Package (5N6D)",
+    image:
+      "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1656835689/13_0012256_033078_emgfuf.jpg",
+    introduction: [
+      "Kashmir package for 5 nights and 6 days.",
+      "Night stay includes 1 night in houseboat, 1 night in Pahalgam, and 3 nights in Srinagar.",
+    ],
+    sightseeings: [
+      "Srinagar",
+      "Pahalgam",
+      "Srinagar Local Sightseeing",
+      "Gulmarg",
+      "Sonmarg",
+      "Drung Waterfall",
+    ],
+    inclusions: [
+      "05 Night accommodations",
+      "05 Breakfasts & 05 Dinners",
+      "Pick-up & Drop from Srinagar",
+      "Gondola Phase 1 cable car ticket",
+      "Pahalgam union vehicle ABC included",
+      "Gulmarg chain vehicle included",
+      "Drung Waterfall vehicle included",
+      "All transfers & sightseeing by private vehicle",
+    ],
+    exclusions: [
+      "International or domestic flights",
+      "Visa",
+      "Travel Insurance",
+      "Any monument entrance fees, camera fees, guide charges",
+      "Tips and Porterage",
+      "Any other services not mentioned in the inclusion list",
+    ],
+    itinerary: [
+      {
+        name: "Day 1 - Srinagar",
+        description: "Arrival and houseboat stay",
+        items: ["Srinagar", "Houseboat"],
+      },
+      {
+        name: "Day 2 - Srinagar to Pahalgam",
+        description: "Transfer to Pahalgam with ABC",
+        items: ["Srinagar", "Pahalgam", "ABC"],
+      },
+      {
+        name: "Day 3 - Pahalgam to Srinagar",
+        description: "Transfer and local sightseeing",
+        items: ["Pahalgam", "Srinagar Local Sightseeing"],
+      },
+      {
+        name: "Day 4 - Gulmarg Excursion",
+        description: "Day trip from Srinagar",
+        items: ["Srinagar", "Gulmarg", "Return to Srinagar"],
+      },
+      {
+        name: "Day 5 - Sonmarg Excursion",
+        description: "Day trip from Srinagar",
+        items: ["Srinagar", "Sonmarg", "Return to Srinagar"],
+      },
+    ],
+    detailedItinerary: [
+      "Day 1 - Srinagar with houseboat stay.",
+      "Day 2 - Srinagar to Pahalgam with ABC.",
+      "Day 3 - Pahalgam to Srinagar with local sightseeing.",
+      "Day 4 - Srinagar to Gulmarg and back to Srinagar.",
+      "Day 5 - Srinagar to Sonmarg and back to Srinagar.",
+    ],
+    plans: [
+      {
+        name: "standard",
+        rate: 21999,
+        highlights: ["3 Star hotel", "6 pax", "Per person pricing"],
+      },
+      {
+        name: "standard_4_pax",
+        rate: 24399,
+        highlights: ["3 Star hotel", "4 pax", "Per person pricing"],
+      },
+      {
+        name: "standard_2_pax",
+        rate: 26999,
+        highlights: ["3 Star hotel", "2 pax", "Per person pricing"],
+      },
+      {
+        name: "deluxe",
+        rate: 26900,
+        highlights: ["4 Star hotel", "6 pax", "Per person pricing"],
+      },
+      {
+        name: "deluxe_4_pax",
+        rate: 28600,
+        highlights: ["4 Star hotel", "4 pax", "Per person pricing"],
+      },
+      {
+        name: "deluxe_2_pax",
+        rate: 31900,
+        highlights: ["4 Star hotel", "2 pax", "Per person pricing"],
+      },
+    ],
+  },
+  kashmir_tulip_garden: {
+    name: "Kashmir Tulip Garden",
+    stay: "5 Nights / 6 Days",
+    alternate: "Kashmir Tulip Garden Package",
+    image: "/assets/images/tulips.webp",
+    introduction: [
+      "Experience the beauty of Kashmir with a tulip garden holiday package.",
+      "The package covers Gulmarg, Sonmarg, Srinagar, Dal Lake, Pahalgam, and Doodhpathri.",
+    ],
+    sightseeings: [
+      "Tulip Garden",
+      "Gulmarg",
+      "Sonmarg",
+      "Srinagar",
+      "Dal Lake",
+      "Pahalgam",
+      "Doodhpathri",
+    ],
+    inclusions: [
+      "Grand welcome",
+      "Comfortable transport",
+      "3 star accommodation",
+      "01 hour complimentary shikara ride",
+    ],
+    exclusions: [
+      "International or domestic flights",
+      "Visa",
+      "Travel Insurance",
+      "Any monument entrance fees, camera fees, guide charges",
+      "Tips and Porterage",
+      "Any other services not mentioned in the inclusion list",
+    ],
+    itinerary: [],
+    detailedItinerary: [],
+    plans: [
+      {
+        name: "standard",
+        rate: 13999,
+        highlights: [
+          "Per person pricing",
+          "Minimum 6 pax",
+          "5 nights 6 days",
+          "3 star accommodation",
+        ],
+      },
+    ],
+    contact: {
+      phone: "+91-7006327452",
+      website: "www.redseaholiday.com",
+    },
+  },
   kashmir_paradise_tour: {
     name: "Kashmir Paradise Tour",
     stay: "Srinagar (2N) → Pahalgam (2N) → Gulmarg (2N)",

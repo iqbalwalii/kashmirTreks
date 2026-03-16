@@ -1,9 +1,10 @@
+"use client";
 import React from "react";
 import { Button, Carousel, Row } from "react-bootstrap";
 import Image from "next/image";
 import sundayData from "../data/sunday";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
+
 const Sunday = () => {
   const router = useRouter();
   return (
@@ -17,24 +18,19 @@ const Sunday = () => {
           <Image
             width={900}
             height={500}
-            layout="responsive"
             className="d-block w-100"
             src={sundayData.image2}
             alt="First slide"
+            style={{ width: "100%", height: "auto" }}
           />
           <Carousel.Caption>
-            <div className="">
+            <div>
               <h3>{sundayData?.name}</h3>
               <p>{sundayData?.description}</p>
               <div className="d-flex justify-content-center">
                 <Button
-                  variant="warning"
-                  onClick={() =>
-                    router.push({
-                      pathname: "/book",
-                      query: { name: "daytour" },
-                    })
-                  }
+                  className="btn-gold-custom"
+                  onClick={() => router.push("/book?name=daytour")}
                 >
                   Book Your Slot
                 </Button>
@@ -46,24 +42,19 @@ const Sunday = () => {
           <Image
             width={900}
             height={500}
-            layout="responsive"
             className="d-block w-100"
             src={sundayData.image1}
-            alt="First slide"
+            alt="Second slide"
+            style={{ width: "100%", height: "auto" }}
           />
           <Carousel.Caption>
-            <div className="">
+            <div>
               <h3>{sundayData?.name}</h3>
               <p>{sundayData?.description}</p>
               <div className="d-flex justify-content-center">
                 <Button
-                  variant="warning"
-                  onClick={() =>
-                    router.push({
-                      pathname: "/book",
-                      query: { name: "daytour" },
-                    })
-                  }
+                  className="btn-gold-custom"
+                  onClick={() => router.push("/book?name=daytour")}
                 >
                   Book Your Slot
                 </Button>

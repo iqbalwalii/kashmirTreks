@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ── Color Palette ─────────────────────────────────────────── */
+:root {
+  --primary: #16784a;    /* Kashmir emerald green */
+  --accent:  #c86b0c;   /* Warm Kashmir amber    */
+  --gold:    #e8a020;   /* Autumn gold (CTAs)    */
+  --dark:    #0b1c0e;   /* Deep forest dark      */
+}
+
 html,
 body {
   padding: 0;
@@ -7,27 +16,186 @@ body {
   position: relative;
   font-family: "Poppins", sans-serif !important;
   overflow-x: hidden;
-  /* font-family: "Indie Flower", cursive; */
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
 }
-p {
-  /* font-size: 0.9rem; */
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.4s linear;
+}
+a:hover {
+  color: var(--primary) !important;
 }
 
+.reservedLink {
+  text-decoration: none !important;
+  color: rgb(240, 231, 231) !important;
+  transition: all 0.4s linear;
+}
+
+/* ── Typography ─────────────────────────────────────────────── */
+.heading {
+  font-size: 2rem;
+  font-weight: 800 !important;
+  color: var(--accent) !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+  letter-spacing: 0.02em;
+}
+.subheading {
+  font-size: 1.7rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700 !important;
+  color: var(--primary);
+  font-family: caveat, cursive;
+}
+.subHeading {
+  font-size: 1.7rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700 !important;
+  color: var(--accent);
+  font-family: caveat, cursive;
+}
+.description {
+  font-size: 1.15rem;
+  padding: 1rem;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  text-transform: lowercase;
+  color: #2d2d2d;
+  line-height: 1.7;
+}
+.qimm {
+  font-size: 2.2rem;
+  font-weight: 800 !important;
+  color: var(--primary) !important;
+  padding: 1rem;
+  letter-spacing: 0.05em;
+}
+
+/* ── Utility classes ────────────────────────────────────────── */
+.text-primary-custom {
+  color: var(--primary) !important;
+}
+.text-accent {
+  color: var(--accent) !important;
+}
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.btn-primary-custom {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+  font-weight: 600;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-primary-custom:hover {
+  background-color: #0f5c38 !important;
+  border-color: #0f5c38 !important;
+}
+
+.btn-accent-custom {
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+  color: #fff !important;
+  font-weight: 600;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-accent-custom:hover {
+  background-color: #a5570a !important;
+  border-color: #a5570a !important;
+}
+
+.btn-gold-custom {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: #1a1a1a !important;
+  font-weight: 700;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-gold-custom:hover {
+  background-color: #c8880e !important;
+  border-color: #c8880e !important;
+}
+
+/* ── Whatsapp float ─────────────────────────────────────────── */
 .whatsapp {
   position: fixed;
   bottom: 3rem;
   right: 1rem;
   z-index: 1;
 }
+
+/* ── Hero overlay ───────────────────────────────────────────── */
+.imagehead {
+  padding: 0 !important;
+  position: relative;
+  height: 100vh;
+  object-fit: cover;
+}
+.dark {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* ── Activity bar ───────────────────────────────────────────── */
+.activity {
+  background-color: rgba(22, 120, 74, 0.08);
+  border-left: 4px solid var(--primary);
+  padding: 2rem;
+}
+
+/* ── Box / Card helpers ─────────────────────────────────────── */
+.bg {
+  background-color: rgba(22, 120, 74, 0.08);
+  color: #000;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
+.box {
+  padding: 0.5rem;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}
+.cardCenter {
+  margin: auto;
+}
+.cardGroup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ── Form layout ────────────────────────────────────────────── */
+.textField {
+  display: flex;
+}
+
+/* ── Underline animation ────────────────────────────────────── */
 .underline {
   position: relative;
 }
@@ -38,118 +206,12 @@ p {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: var(--primary);
   transform: scaleX(0);
   transition: transform 0.3s;
 }
-a {
-  text-decoration: none;
-  color: #000;
-  transition: all 0.4s linear;
-}
-a:hover {
-  color: rgb(21, 134, 87) !important;
-}
-.reservedLink {
-  text-decoration: none !important;
-  color: rgb(240, 231, 231) !important;
-  transition: all 0.4s linear;
-}
 
-.heading {
-  font-size: 1.8rem;
-  font-weight: bolder !important;
-  color: #5b3511 !important;
-  /* font-family: caveat cursive; */
-  margin-bottom: 0 !important;
-  padding: 0;
-}
-.subheading {
-  font-size: 1.6rem;
-  padding: 0;
-  margin: 0;
-  font-weight: bolder !important;
-  color: #004220;
-  font-family: caveat, cursive;
-}
-.subHeading {
-  font-size: 1.6rem;
-  padding: 0;
-  margin: 0;
-  font-weight: bolder !important;
-  color: #5b3511;
-  font-family: caveat, cursive;
-}
-.bg {
-  background-color: #f2ff0073;
-  color: #000;
-  padding: 1.2rem;
-  border-radius: 2rem;
-}
-.description {
-  font-size: 1.2rem;
-  padding: 1rem;
-  padding-top: 1rem;
-  margin: 0;
-  font-family: Poppins, sans-serif;
-  text-transform: lowercase;
-}
-.qimm {
-  font-size: 2rem;
-  font-weight: bolder !important;
-  color: #004220 !important;
-  padding: 1rem;
-}
-.imagehead {
-  padding: 0 !important;
-  position: relative;
-  height: 100vh;
-}
-.dark {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.37);
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text {
-  background-color: #ffffff;
-  padding: 0.5rem;
-  border-radius: 10px;
-}
-.activity {
-  background-color: rgba(68, 68, 68, 0.158);
-  padding: 2rem;
-}
-.box {
-  padding: 0.5rem;
-  border: 1px solid #000;
-  border-radius: 10px;
-  width: 40%;
-  text-align: center;
-}
-
-.cardCenter {
-  margin: auto;
-}
-
-.cardGroup {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.textField {
-  display: flex;
-}
-.text {
-  text-align: start;
-}
+/* ── Responsive ─────────────────────────────────────────────── */
 @media screen and (max-width: 760px) {
   .box {
     width: 100%;

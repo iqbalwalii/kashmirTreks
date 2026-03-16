@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import Image from "next/image";
@@ -9,20 +10,20 @@ const Footer = () => {
       <Col xs={12} md={3} className="p-3">
         <h4 className="text-center">ADDRESS INFO</h4>
         <ul className="list-unstyled">
-          <li className="text-center">Manigam, Ganderbal,</li>
+          <li className="text-center">Anantnag, KP Road,</li>
           <li className="text-center">Kashmir, India-191201.</li>
           <li className="text-center"> +91 6005702825</li>
           <li className="text-center">
             <a href="mailto:queries@mounteco.in">queries@mounteco.in</a>
           </li>
-          <li className="text-center">
+          {/* <li className="text-center">
             <Image
               src="/assets/images/partners.png"
               width={150}
               height={100}
               alt="logo"
             />
-          </li>
+          </li> */}
         </ul>
       </Col>
 
@@ -81,19 +82,13 @@ const Footer = () => {
           className="d-flex flex-column align-items-center"
         >
           <Form.Group controlId="formBasicEmail">
-            <Form.Control
-              type="email"
-              placeholder="Enter email"
-              name="email"
-              id="email"
-            />
+            <Form.Control type="email" placeholder="Enter email" name="email" />
           </Form.Group>
           <Form.Group controlId="formBasicName" className="my-2">
             <Form.Control
               type="text"
               placeholder="Enter Your Name"
               name="name"
-              id="name"
             />
           </Form.Group>
           <div className="d-grid">
@@ -107,7 +102,7 @@ const Footer = () => {
         <h4 className="text-center">FOLLOW US</h4>
         <ul className="list-unstyled">
           <li className="text-center">
-            <a href="https://instagram.com/ensuenotourandtravels">Instagram</a>
+            <a href="https://instagram.com/mountecotravells">Instagram</a>
           </li>
           <li className="text-center">Facebook</li>
           <li className="text-center">Twitter</li>

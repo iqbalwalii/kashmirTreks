@@ -5,6 +5,7 @@ import { Button, Container } from "react-bootstrap";
 import Card from "../Components/Card";
 import Link from "next/link";
 import Sunday from "../Components/sunday";
+
 export default function Home() {
   return (
     <>
@@ -14,10 +15,7 @@ export default function Home() {
         <div className="paragraph">
           <h2 className="text-center mt-5 heading">Mount Eco</h2>
           <p className="text-center subheading">Adventure comes alive!</p>
-          <p
-            className="text-center description"
-            // style={{ fontFamily: "Caveat, cursive", fontSize: "1.5rem" }}
-          >
+          <p className="text-center description">
             Mount Eco is an expedition and adventure travel company. We offer
             guided hiking, trekking tours and mountain adventures in the
             Himalayas of Kashmir. We specialize in selected classic treks and
@@ -30,9 +28,21 @@ export default function Home() {
           </p>
         </div>
         <div className="featured my-4">
-          <h1 className=" mb-3 text-center qimm">FEATURED TOURS</h1>
+          <h1 className="mb-3 text-center qimm">FEATURED TOURS</h1>
           <div className="cardGroup">
-            <div className="mb-4 ">
+            <div className="mb-4">
+              <Link href="/holidays/kashmir_tulip_package">
+                <div>
+                  <Card
+                    name={"Kashmir Tulip Package"}
+                    image={"/assets/images/tulips.webp"}
+                    link={"holidays/kashmir_tulip_package"}
+                    type={"holiday"}
+                  />
+                </div>
+              </Link>
+            </div>
+            <div className="mb-4">
               <Link href="/treks/tulail_gangabal_naranag_trek">
                 <div>
                   <Card
@@ -46,7 +56,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="mb-4 ">
+            <div className="mb-4">
               <Link href="/treks/kolahoi_glacier_trek">
                 <div>
                   <Card
@@ -59,7 +69,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="mb-4 ">
+            <div className="mb-4">
               <Link href="/treks/srinagar_warwan_panikhar_trek">
                 <div>
                   <Card
@@ -76,13 +86,13 @@ export default function Home() {
         </div>
         <div className="d-flex justify-content-center">
           <Link href="/treks">
-            <Button style={{ background: "#004220", color: "#fff" }}>
+            <Button className="btn-primary-custom">
               Browse All Destinations
             </Button>
           </Link>
         </div>
         <div className="paragraph my-5">
-          <h2 className="text-center mt-5  heading">KASHMIR </h2>
+          <h2 className="text-center mt-5 heading">KASHMIR</h2>
           <p className="text-center subheading">
             A Summer Escape and a Winter Playground
           </p>
@@ -100,7 +110,7 @@ export default function Home() {
           </p>
         </div>
         <div className="featured my-4">
-          <h3 className=" mb-3 text-center qimm">FIXED DEPARTURES</h3>
+          <h3 className="mb-3 text-center qimm">FIXED DEPARTURES</h3>
           <section className="cardGroup">
             <Link href="/treks/naranag_gangabal_mahlish_trek">
               <div className="mb-4">
@@ -117,7 +127,7 @@ export default function Home() {
             <Link href="/treks/kashmir_great_lakes_trek">
               <div className="mb-4">
                 <Card
-                  name={"kashmir Great Lakes Trek"}
+                  name={"Kashmir Great Lakes Trek"}
                   image={
                     "https://res.cloudinary.com/kashmir-ensueno1/image/upload/v1658321686/gl_aho9th.jpg"
                   }
@@ -143,7 +153,7 @@ export default function Home() {
         </div>
         <div className="d-flex justify-content-center mb-5">
           <Link href="/treks">
-            <Button style={{ background: "#004220", color: "#fff" }}>
+            <Button className="btn-primary-custom">
               Browse All Destinations
             </Button>
           </Link>

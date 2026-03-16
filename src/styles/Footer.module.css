@@ -1,12 +1,26 @@
 .main {
   overflow: hidden;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: 0;
-  background: #201d1d;
-  color: #fafafa;
+  background: #0b1c0e;
+  color: #e8f5ee;
+  border-top: 4px solid #16784a;
 }
 
-.main li > a {
-  color: #fafafa !important;
+.main h4 {
+  color: #e8a020;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
 }
-/*# sourceMappingURL=Footer.module.css.map */
+
+.main li > a,
+.main a {
+  color: #b8dfc8 !important;
+  transition: color 0.3s;
+}
+
+.main li > a:hover,
+.main a:hover {
+  color: #e8a020 !important;
+}

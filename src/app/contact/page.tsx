@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Button,
@@ -7,21 +8,19 @@ import {
   Form,
   Row,
 } from "react-bootstrap";
-import Head from "next/head";
-const contact = () => {
+
+export default function ContactPage() {
   return (
     <Container>
-      <Head>
-        <title>Contact</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <Row style={{ marginTop: "6rem" }}>
         <Col xs={12} md={6} className="p-3">
           <h2>Contact</h2>
-          <Form
-            action="https://public.herotofu.com/v1/2c901aa0-0918-11ed-be50-e78da9ee852d"
-            method="post"
-          >
+          <Form action="https://api.web3forms.com/submit" method="post">
+            <input
+              type="hidden"
+              name="access_key"
+              value="5907f1cf-42bb-4c84-bc3a-c9f1a150daba"
+            ></input>
             <FloatingLabel
               className="mb-2"
               controlId="email"
@@ -30,7 +29,6 @@ const contact = () => {
               <Form.Control
                 type="email"
                 name="email"
-                id="email"
                 placeholder="Enter Email"
                 required
               />
@@ -39,7 +37,6 @@ const contact = () => {
               <Form.Control
                 type="text"
                 name="Name"
-                id="Name"
                 placeholder="Enter Name"
                 required
               />
@@ -48,7 +45,6 @@ const contact = () => {
               <Form.Control
                 type="text"
                 name="subject"
-                id="subject"
                 placeholder="Subject"
                 required
               />
@@ -61,18 +57,13 @@ const contact = () => {
               <Form.Control
                 as="textarea"
                 name="Message"
-                id="Message"
                 placeholder="Message"
                 style={{ height: "100px" }}
                 required
               />
             </FloatingLabel>
             <div className="d-grid">
-              <Button
-                type="submit"
-                style={{ background: "#5B3511" }}
-                className="mt-2 mb-5"
-              >
+              <Button type="submit" className="btn-accent-custom mt-2 mb-5">
                 Submit
               </Button>
             </div>
@@ -81,6 +72,4 @@ const contact = () => {
       </Row>
     </Container>
   );
-};
-
-export default contact;
+}

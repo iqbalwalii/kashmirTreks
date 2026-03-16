@@ -1,17 +1,14 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+"use client";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Button, Container, Row, Col } from "react-bootstrap";
-// Import Swiper styles
+import { Button } from "react-bootstrap";
 import "swiper/css";
 import "swiper/css/pagination";
 import Link from "next/link";
 import styles from "../styles/Slider.module.css";
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-export default function App() {
+export default function Slider() {
   return (
     <div className={styles.main}>
       <Swiper
@@ -31,7 +28,7 @@ export default function App() {
           <div className={styles.controls}>
             <h2 className="text-light">Best Places to Wander</h2>
             <Link href="/treks">
-              <Button variant="light" className="mx-1 ">
+              <Button variant="light" className="mx-1">
                 Browse Treks
               </Button>
             </Link>
@@ -39,9 +36,9 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className={styles.second}>
           <div className={styles.controls}>
-            <h2 className="text-light">Fil Your Heart with Adventure</h2>
+            <h2 className="text-light">Fill Your Heart with Adventure</h2>
             <Link href="/holidays">
-              <Button variant="light" className="mx-1 ">
+              <Button variant="light" className="mx-1">
                 Browse Tours
               </Button>
             </Link>

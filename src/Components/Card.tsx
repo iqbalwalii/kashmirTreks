@@ -1,27 +1,21 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 const CardView = (props) => {
   const router = useRouter();
   const onClickHandler = (e) => {
     e.preventDefault();
-    router.push({
-      pathname: "/book",
-      query: { name: `${props.type}` },
-    });
+    router.push(`/book?name=${props.type}`);
   };
   return (
     <div>
-      {/* <Link href={props?.link}> */}
       <Card style={{ width: "18rem", cursor: "pointer" }}>
         <img
           src={props?.image}
-          // width="200px"
-          // height="150px"
           alt="card image"
-          // layout="responsive"
         />
 
         <Card.Body>
@@ -30,7 +24,7 @@ const CardView = (props) => {
         {props?.btn ? (
           <div className="d-grid">
             <Button
-              variant="warning"
+              className="btn-gold-custom"
               onClick={onClickHandler}
               style={{ textDecoration: "none" }}
             >
@@ -41,7 +35,6 @@ const CardView = (props) => {
           ""
         )}
       </Card>
-      {/* </Link> */}
     </div>
   );
 };

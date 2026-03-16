@@ -1,4 +1,7 @@
 export enum Holidays {
+  kashmir_tulip_package = "Kashmir Tulip Package",
+  kashmir_package = "Kashmir",
+  kashmir_tulip_garden = "Kashmir Tulip Garden",
   srinagar_leh_nubra_tour = "Srinagar Leh Nubra Tour",
   kashmir_paradise_tour = "Kashmir Paradise Tour",
   kashmir_winter_package_tour = "Kashmir Winter Package Tour",

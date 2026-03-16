@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
 import Image from "next/image";
@@ -21,10 +22,17 @@ const Navigation = () => {
               height={60}
               alt="logo"
             />
-            <span style={{ color: "#5B3511", marginLeft: "1rem" }}>
+            <span style={{
+              color: "#C86B0C",
+              marginLeft: "0.75rem",
+              fontFamily: "'Caveat', cursive",
+              fontWeight: 700,
+              fontSize: "1.75rem",
+              letterSpacing: "0.04em",
+              lineHeight: 1,
+            }}>
               Mount Eco
-            </span>{" "}
-            {/* <span style={{ color: "#004220" }}>Tour And Travels</span> */}
+            </span>
           </Navbar.Brand>
 
           <Navbar.Toggle />
@@ -35,15 +43,8 @@ const Navigation = () => {
 
               <NavDropdown title="Holidays" id="collasible-nav-dropdown">
                 {Object.keys(Holidays).map((key) => (
-                  <NavDropdown.Item key={key}>
-                    <Link
-                      passHref
-                      href={{
-                        pathname: `/holidays/${key}`,
-                      }}
-                    >
-                      {Holidays[key]}
-                    </Link>
+                  <NavDropdown.Item key={key} as={Link} href={`/holidays/${key}`}>
+                    {Holidays[key]}
                   </NavDropdown.Item>
                 ))}
               </NavDropdown>
