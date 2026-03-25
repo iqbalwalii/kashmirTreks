@@ -3,6 +3,7 @@ import React from "react";
 import holidays from "../../../data/holidays";
 import { useParams, useRouter } from "next/navigation";
 import { Row, Col, Container, Accordion, Button, Spinner } from "react-bootstrap";
+import Link from "next/link";
 
 export default function HolidayPage() {
   const params = useParams();
@@ -200,6 +201,27 @@ export default function HolidayPage() {
             )}
           </Row>
         )}
+        <Row className="mt-5 mb-4 py-4" style={{ borderTop: "1px solid #e0ede6" }}>
+          <Col>
+            <p style={{ color: "#555", marginBottom: "0.5rem" }}>
+              <Link href="/holidays" className="link">← All Kashmir Holiday Packages</Link>
+              {" · "}
+              <Link href="/treks" className="link">Explore Kashmir Treks</Link>
+              {" · "}
+              <Link href="/bespoke" className="link">Plan a Custom Trip</Link>
+            </p>
+            <p style={{ color: "#555" }}>
+              Popular packages:{" "}
+              <Link href="/holidays/gulmarg_family_ski_holiday" className="link">Gulmarg Skiing</Link>
+              {" · "}
+              <Link href="/holidays/kashmir_tulip_package" className="link">Tulip Garden Tour</Link>
+              {" · "}
+              <Link href="/holidays/srinagar_leh_nubra_tour" className="link">Ladakh Trip</Link>
+              {" · "}
+              <Link href="/holidays/kashmir_paradise_tour" className="link">Pahalgam Tour</Link>
+            </p>
+          </Col>
+        </Row>
       </Container>
     </>
   );

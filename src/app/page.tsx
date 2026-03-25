@@ -16,15 +16,16 @@ export default function Home() {
           <h2 className="text-center mt-5 heading">Mount Eco</h2>
           <p className="text-center subheading">Adventure comes alive!</p>
           <p className="text-center description">
-            Mount Eco is an expedition and adventure travel company. We offer
-            guided hiking, trekking tours and mountain adventures in the
-            Himalayas of Kashmir. We specialize in selected classic treks and
-            climbs, such as the Great Lakes Trek, the Mount Harmukh Climb,
-            Kolahoi Glacier Trek, Stok-Kangri Climb, and the Zanskar Valley
-            Trek. We also support TV/ Film shootings and documentaries and are
-            equally happy to design a private trip, tailor-made to meet your
-            specific requirements. Being native and independent, we provide a
-            friendly, personal, secure, and authentic mountain experience.
+            Mount Eco is a Kashmir-based tour &amp; travel company offering
+            guided <Link href="/treks" className="link">Kashmir trekking</Link>,{" "}
+            <Link href="/holidays/gulmarg_family_ski_holiday" className="link">Gulmarg skiing</Link>,{" "}
+            <Link href="/holidays/kashmir_tulip_package" className="link">tulip garden tours</Link>,{" "}
+            <Link href="/holidays/srinagar_leh_nubra_tour" className="link">Ladakh trips</Link>, and{" "}
+            <Link href="/holidays/kashmir_paradise_tour" className="link">Pahalgam holiday packages</Link>.
+            Being native and independent, based in Anantnag, Kashmir, we provide a
+            friendly, personal, and authentic experience — from classic Himalayan treks like the{" "}
+            <Link href="/treks/kashmir_great_lakes_trek" className="link">Great Lakes Trek</Link> to
+            fully tailored <Link href="/bespoke" className="link">bespoke Kashmir trips</Link>.
           </p>
         </div>
         <div className="featured my-4">
@@ -68,10 +69,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center gap-3">
+          <Link href="/holidays">
+            <Button className="btn-primary-custom">
+              Kashmir Holiday Packages
+            </Button>
+          </Link>
           <Link href="/treks">
             <Button className="btn-primary-custom">
-              Browse All Destinations
+              Trekking Routes
             </Button>
           </Link>
         </div>
@@ -138,7 +144,7 @@ export default function Home() {
         <div className="d-flex justify-content-center mb-5">
           <Link href="/treks">
             <Button className="btn-primary-custom">
-              Browse All Destinations
+              Browse All Trekking Routes
             </Button>
           </Link>
         </div>

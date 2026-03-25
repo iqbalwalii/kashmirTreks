@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 
 export default function AboutPage() {
@@ -72,15 +73,19 @@ export default function AboutPage() {
             </p>
             <p style={{ color: "#444", lineHeight: 1.85 }}>
               We started as trekkers and grew into something bigger — a 360° travel company that covers
-              everything Kashmir has to offer. Whether you want to summit a peak or float on Dal Lake,
-              we&apos;ve got you covered.
+              everything Kashmir has to offer. From{" "}
+              <Link href="/treks/kashmir_great_lakes_trek" className="link">Great Lakes treks</Link> to
+              floating on Dal Lake, we&apos;ve got you covered.
             </p>
           </Col>
           <Col xs={12} md={6}>
             <p style={{ color: "#444", lineHeight: 1.85 }}>
-              From curated holiday packages — houseboats, gardens, sightseeing, and cultural tours — to
-              full trekking expeditions deep into the Himalayas, Mount Eco handles it all. Every detail
-              is arranged so you can simply enjoy the journey.
+              From curated <Link href="/holidays" className="link">Kashmir holiday packages</Link> — houseboats,{" "}
+              <Link href="/holidays/kashmir_tulip_package" className="link">tulip garden tours</Link>,{" "}
+              <Link href="/holidays/gulmarg_family_ski_holiday" className="link">Gulmarg skiing</Link>, and{" "}
+              <Link href="/holidays/srinagar_leh_nubra_tour" className="link">Ladakh trips</Link> — to full{" "}
+              <Link href="/treks" className="link">trekking expeditions</Link> deep into the Himalayas,
+              Mount Eco handles it all. Every detail is arranged so you can simply enjoy the journey.
             </p>
             <p style={{ color: "#444", lineHeight: 1.85 }}>
               Families, solo travellers, honeymooners, adventure seekers — we tailor every trip to the
@@ -93,24 +98,26 @@ export default function AboutPage() {
         {/* Values */}
         <Row className="g-4 mt-3">
           {[
-            { icon: "🏔️", title: "Treks & Adventures", body: "From beginner trails to serious Himalayan expeditions — guided by locals who know every path." },
-            { icon: "🌷", title: "Holiday Packages", body: "Houseboats, gardens, sightseeing, culture — complete Kashmir holidays arranged end to end." },
-            { icon: "🌿", title: "Local & Eco-Minded", body: "Based in Anantnag, rooted in the valley. We support sustainable travel and local communities." },
-          ].map(({ icon, title, body }) => (
+            { icon: "🏔️", title: "Treks & Adventures", body: "From beginner trails to serious Himalayan expeditions — guided by locals who know every path.", href: "/treks" },
+            { icon: "🌷", title: "Holiday Packages", body: "Houseboats, gardens, sightseeing, culture — complete Kashmir holidays arranged end to end.", href: "/holidays" },
+            { icon: "🌿", title: "Bespoke Travel", body: "Based in Anantnag, rooted in the valley. We design custom Kashmir trips for any group, pace, or budget.", href: "/bespoke" },
+          ].map(({ icon, title, body, href }) => (
             <Col xs={12} md={4} key={title}>
-              <div
-                style={{
-                  background: "#f7faf8",
-                  border: "1px solid #e0ede6",
-                  borderRadius: "1rem",
-                  padding: "2rem 1.5rem",
-                  height: "100%",
-                }}
-              >
-                <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{icon}</div>
-                <h5 style={{ fontWeight: 700, color: "var(--primary)", marginBottom: "0.5rem" }}>{title}</h5>
-                <p style={{ color: "#555", marginBottom: 0, lineHeight: 1.7 }}>{body}</p>
-              </div>
+              <Link href={href} style={{ textDecoration: "none" }}>
+                <div
+                  style={{
+                    background: "#f7faf8",
+                    border: "1px solid #e0ede6",
+                    borderRadius: "1rem",
+                    padding: "2rem 1.5rem",
+                    height: "100%",
+                  }}
+                >
+                  <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{icon}</div>
+                  <h5 style={{ fontWeight: 700, color: "var(--primary)", marginBottom: "0.5rem" }}>{title}</h5>
+                  <p style={{ color: "#555", marginBottom: 0, lineHeight: 1.7 }}>{body}</p>
+                </div>
+              </Link>
             </Col>
           ))}
         </Row>

@@ -199,6 +199,15 @@ export default function TreksPage() {
           </section>
         </Tab>
       </Tabs>
+      <p className="mt-4 mb-5" style={{ color: "#555" }}>
+        Looking for a full holiday experience? Browse our{" "}
+        <Link href="/holidays" className="link">Kashmir holiday packages</Link> covering{" "}
+        <Link href="/holidays/gulmarg_family_ski_holiday" className="link">Gulmarg skiing</Link>,{" "}
+        <Link href="/holidays/kashmir_tulip_package" className="link">tulip garden tours</Link>,{" "}
+        <Link href="/holidays/srinagar_leh_nubra_tour" className="link">Ladakh trips</Link>, and{" "}
+        <Link href="/holidays/kashmir_paradise_tour" className="link">Pahalgam tours</Link>.
+        Or <Link href="/bespoke" className="link">design a custom Kashmir trip</Link> with our team.
+      </p>
     </Container>
   );
 }

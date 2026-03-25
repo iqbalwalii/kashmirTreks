@@ -7,9 +7,28 @@ import Whatsapp from "../Components/Whatsapp";
 import Providers from "./Providers";
 
 export const metadata: Metadata = {
-  title: "Mount Eco - Kashmir Treks & Adventures",
+  title: "Mount Eco - Kashmir Tours, Treks & Holiday Packages",
   description:
-    "Guided hiking, trekking tours and mountain adventures in the Himalayas of Kashmir",
+    "Mount Eco Tour & Travels — based in Anantnag, Kashmir. Book Kashmir holiday packages, Gulmarg skiing, Pahalgam tours, Ladakh trips, tulip garden tours and guided Himalayan treks.",
+  keywords: [
+    "kashmir tour",
+    "kashmir trip",
+    "kashmir holiday packages",
+    "kashmir plans",
+    "ladakh trip",
+    "ladakh tour",
+    "tulip garden kashmir",
+    "gulmarg skiing",
+    "gulmarg tour",
+    "pahalgam tour",
+    "pahalgam holiday",
+    "kashmir trekking",
+    "himalayas trek",
+    "kashmir tourist packages",
+    "anantnag tours",
+    "mount eco",
+    "kashmir travel agency",
+  ],
   icons: {
     icon: [
       { url: "/assets/images/favicon.ico" },

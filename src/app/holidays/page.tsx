@@ -48,6 +48,18 @@ export default function HolidaysPage() {
           </ul>
         </Col>
       </Row>
+      <Row className="mt-4 mb-5">
+        <Col>
+          <p style={{ color: "#555" }}>
+            Prefer an active adventure? Explore our{" "}
+            <Link href="/treks" className="link">Kashmir trekking routes</Link> including the famous{" "}
+            <Link href="/treks/kashmir_great_lakes_trek" className="link">Great Lakes Trek</Link> and{" "}
+            <Link href="/treks/tarsar_marsar_trek" className="link">Tarsar Marsar Trek</Link>.
+            Want something fully customised?{" "}
+            <Link href="/bespoke" className="link">Plan a bespoke Kashmir trip</Link> tailored to your group.
+          </p>
+        </Col>
+      </Row>
     </Container>
   );
 }

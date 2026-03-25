@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import {
   Button,
   Col,
@@ -16,20 +17,25 @@ export default function BespokePage() {
         <Col md={6} xs={10} className="cardCenter pt-3">
           <h2>BESPOKE FULL SERVICE ITINERARY</h2>
           <p>
-            The foundation of Mount Eco is based on the bespoke travel services
+            The foundation of Mount Eco is based on bespoke travel services
             in Kashmir. We create tailor-made luxury travel itineraries to make
             you unleash your wildest adventure ambitions and the true experience
             to visit Kashmir exactly what you expected and more.
           </p>
           <p>
-            We&apos;ve been exploring the remote corners of this Himalayan
-            country and are fully aware of its adventures and challenges. We
-            present to you our exclusive bespoke service. Our expertise in the
-            field will make your Kashmir experience unique and memorable. We
-            will plan your tour in detail based on your needs and wishes. We
-            customize itineraries for individuals, group escapes, exquisite
-            proposals, wilderness weddings, personal honeymoons to family
-            adventures, crafting every moment of your stay.
+            Not sure where to start? Browse our ready-made{" "}
+            <Link href="/holidays" className="link">Kashmir holiday packages</Link> covering{" "}
+            <Link href="/holidays/gulmarg_family_ski_holiday" className="link">Gulmarg skiing</Link>,{" "}
+            <Link href="/holidays/kashmir_tulip_package" className="link">tulip garden tours</Link>,{" "}
+            <Link href="/holidays/srinagar_leh_nubra_tour" className="link">Ladakh trips</Link>, and{" "}
+            <Link href="/holidays/kashmir_paradise_tour" className="link">Pahalgam tours</Link> —
+            or explore our <Link href="/treks" className="link">Himalayan trekking routes</Link> including
+            the <Link href="/treks/kashmir_great_lakes_trek" className="link">Great Lakes Trek</Link> and{" "}
+            <Link href="/treks/tarsar_marsar_trek" className="link">Tarsar Marsar Trek</Link>.
+          </p>
+          <p>
+            We customise itineraries for individuals, group escapes, honeymoons, and family
+            adventures — crafting every moment of your Kashmir stay.
           </p>
         </Col>
         <Col className="p-5 pt-3">
