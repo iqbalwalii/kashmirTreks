@@ -95,6 +95,7 @@ const Footer = () => {
                 type="email"
                 placeholder="Enter email"
                 name="email"
+                required
               />
             </Form.Group>
             <Form.Group controlId="formBasicName" className="my-2">
@@ -102,6 +103,7 @@ const Footer = () => {
                 type="text"
                 placeholder="Enter Your Name"
                 name="name"
+                required
               />
             </Form.Group>
             <div className="d-grid">
