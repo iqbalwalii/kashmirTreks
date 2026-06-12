@@ -13,7 +13,7 @@ const Footer = () => {
           <ul className="list-unstyled">
             <li className="text-center">Anantnag, KP Road,</li>
             <li className="text-center">Kashmir, India-191201.</li>
-            <li className="text-center"> +91 6005566568</li>
+            <li className="text-center"> +91 7006030526</li>
             <li className="text-center"> +91 9149760698</li>
             <li className="text-center">
               <a href="mailto:queries@mounteco.in">queries@mounteco.in</a>
